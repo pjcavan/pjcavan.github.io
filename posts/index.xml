@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Fourth Time Lucky</title>
+    <link>https://cavan.us/posts/</link>
+    <description>Recent content in Posts on Fourth Time Lucky</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 14 Jun 2020 20:18:34 -0700</lastBuildDate>
+    
+	<atom:link href="https://cavan.us/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>IPv6 in 2020</title>
+      <link>https://cavan.us/posts/ipv6-in-2020/</link>
+      <pubDate>Sun, 14 Jun 2020 20:18:34 -0700</pubDate>
+      
+      <guid>https://cavan.us/posts/ipv6-in-2020/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://cavan.us/images/apnic.png&#34; alt=&#34;APNIC on IPv6&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Briefly looked into &lt;em&gt;&amp;ldquo;how is &lt;a href=&#34;https://en.wikipedia.org/wiki/IPv6&#34;&gt;IPv6&lt;/a&gt; deployment going&amp;rdquo;&lt;/em&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>LPG Explosion in Zhejiang Province</title>
+      <link>https://cavan.us/posts/lpg-zhejiang/</link>
+      <pubDate>Sun, 14 Jun 2020 20:12:01 -0700</pubDate>
+      
+      <guid>https://cavan.us/posts/lpg-zhejiang/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://cavan.us/images/lpg.png&#34; alt=&#34;LPG Explosion&#34;&gt;&lt;/p&gt;
+&lt;p&gt;This is what happens when an LPG truck crashes into a factory. As of today (Sunday 14th), local media is reporting 19 deaths and 172 injuries.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Accidental Tech Podcast - Notes</title>
+      <link>https://cavan.us/posts/atp-notes/</link>
+      <pubDate>Sat, 13 Jun 2020 22:44:14 -0700</pubDate>
+      
+      <guid>https://cavan.us/posts/atp-notes/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been working through the back catalog of the Accidental Tech Podcast, a long-running technology show by Marco Arment, Casey Liss and John Siracusa.&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; When I come across something notable I&amp;rsquo;ll add it below.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>99 Beers at the Great American Beer Festival 2019</title>
+      <link>https://cavan.us/posts/99-beers/</link>
+      <pubDate>Sat, 13 Jun 2020 10:07:52 -0700</pubDate>
+      
+      <guid>https://cavan.us/posts/99-beers/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://cavan.us/images/GABFbeers.jpg&#34; alt=&#34;GABFbeers&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Ashiyah and I visited this year&amp;rsquo;s &lt;a href=&#34;https://www.greatamericanbeerfestival.com/&#34;&gt;Great American Beer Festival&lt;/a&gt; in Denver. It brings over 800 breweries and 4,000 beers to the US&amp;rsquo;s largest celebration of craft beer.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Brexit: Incompatible Plugs</title>
+      <link>https://cavan.us/posts/brexit-plugs/</link>
+      <pubDate>Wed, 20 Feb 2019 10:07:52 -0700</pubDate>
+      
+      <guid>https://cavan.us/posts/brexit-plugs/</guid>
+      <description>I&amp;rsquo;m a sucker for KAL comics, and European political commentary, and electric industry references. This comic works for me. </description>
+    </item>
+    
+    <item>
+      <title>Snow on Coast</title>
+      <link>https://cavan.us/posts/snow-on-coast/</link>
+      <pubDate>Tue, 19 Feb 2019 10:07:52 -0700</pubDate>
+      
+      <guid>https://cavan.us/posts/snow-on-coast/</guid>
+      <description>My brother-in-law&amp;rsquo;s Bug, parked on the North coast of the Olympic Peninsula in Washington state on Thursday 7 and Friday 8th.
+Yes, it snows in WA. No, most drivers can&amp;rsquo;t handle it.</description>
+    </item>
+    
+    <item>
+      <title>Test</title>
+      <link>https://cavan.us/posts/my-first-post/</link>
+      <pubDate>Tue, 13 Jun 2017 22:33:18 -0700</pubDate>
+      
+      <guid>https://cavan.us/posts/my-first-post/</guid>
+      <description>&lt;p&gt;Hello. This is my first post.&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
