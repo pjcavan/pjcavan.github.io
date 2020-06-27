@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://cavan.us/tags/energy/</loc>
+    <lastmod>2020-06-26T19:59:04-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://cavan.us/</loc>
     <lastmod>2020-06-26T19:59:04-07:00</lastmod>
   </url>
@@ -18,6 +23,11 @@
   </url>
   
   <url>
+    <loc>https://cavan.us/tags/</loc>
+    <lastmod>2020-06-26T19:59:04-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://cavan.us/posts/hello-and-goodbye-to-hey/</loc>
     <lastmod>2020-06-26T14:44:45-07:00</lastmod>
   </url>
@@ -28,17 +38,7 @@
   </url>
   
   <url>
-    <loc>https://cavan.us/tags/energy/</loc>
-    <lastmod>2020-06-14T20:12:01-07:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://cavan.us/posts/lpg-zhejiang/</loc>
-    <lastmod>2020-06-14T20:12:01-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://cavan.us/tags/</loc>
     <lastmod>2020-06-14T20:12:01-07:00</lastmod>
   </url>
   
