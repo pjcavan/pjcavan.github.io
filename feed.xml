@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Fourth Time Lucky</title>
+    <link href="https://cavan.us/feed.xml" rel="self" />
+    <link href="https://cavan.us" />
+    <updated>2021-06-26T21:45:00-07:00</updated>
+    <author>
+        <name>Peter Cavan</name>
+    </author>
+    <id>https://cavan.us</id>
+
+    <entry>
+        <title>Global Optimization Frozen in Amber</title>
+        <author>
+            <name>Peter Cavan</name>
+        </author>
+        <link href="https://cavan.us/global-optimization-frozen-in-amber/"/>
+        <id>https://cavan.us/global-optimization-frozen-in-amber/</id>
+
+        <updated>2021-06-26T21:45:00-07:00</updated>
+            <summary>
+                <![CDATA[
+                    Ontario is fixing what businesses pay for a coincident peak demand charge - Global Adjustment (GA) - for two years. GA is the towering behemoth of Ontario’s electricity system. It transfers C$1.3 billion from energy users to generators every month, and has grown over the&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <h5 id="ontario-is-fixing-what-businesses-pay-for-a-coincident-peak-demand-charge---global-adjustment-ga---for-two-years---more--">Ontario is fixing what businesses pay for a coincident peak demand charge - Global Adjustment (GA) - for two years. <!--more--></h5>
+<p>GA is the towering behemoth of Ontario’s electricity system. It transfers C$1.3 billion from energy users to generators every month, and has grown over the past decade to capture over 80% of many customers’ bills. In organized US markets the energy component is usually the majority of the cost but it’s an increasingly minor portion in Ontario (blue bars below). </p>
+<p><figure class="post__image"><img loading="lazy" src="https://cavan.us/media/posts/11/GA1.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://cavan.us/media/posts/11/responsive/GA1-xs.png 300w ,https://cavan.us/media/posts/11/responsive/GA1-sm.png 480w ,https://cavan.us/media/posts/11/responsive/GA1-md.png 768w ,https://cavan.us/media/posts/11/responsive/GA1-lg.png 1024w ,https://cavan.us/media/posts/11/responsive/GA1-xl.png 1360w ,https://cavan.us/media/posts/11/responsive/GA1-2xl.png 1600w"  alt="GA allocation" width="590" height="442" /></figure></p>
+<p>Larger business customers were previously able to manage how much of the GA pie they’re responsible for through the <a href="http://www.ieso.ca/-/media/files/ieso/document-library/global-adjustment/ici-backgrounder.pdf">Industrial Conservation Initiative (ICI)</a> - by reducing the power they used during the five hours of the year when the system was most stressed, they would pay lower GA costs in future years. This optimization opportunity was worth C$450,000 per MW-year[^2] for businesses who could fully reduce their demand during peak hours, such as shifting to a generator or energy storage. That is a lot - most demand response opportunities in North America are worth $30,000 to $75,000 per MW-year. </p>
+<h5 id="instead-the-ga-contribution-will-be-fixed-existing-businesses-will-continue-paying-ga-costs-in-202021-and-202122-based-on-their-peak-contribution-in-201920">Instead, the GA contribution will be fixed. Existing businesses will continue paying GA costs in 2020/21 and 2021/22 based on their peak contribution in 2019/20.</h5>
+<p>The <a href="https://news.ontario.ca/mndmf/en/2020/06/ontario-provides-stable-electricity-pricing-for-industrial-and-commercial-companies">government’s rationale</a> is that this will encourage businesses to focus on “<em>running at full tilt</em>“ as the province recovers from covid-19, particularly given the oversupply of generating capacity, and provides price stability. Businesses can greatly increase (or decrease) their peak usage over the next two years with no impact on their GA costs (and therefore minimal change to their overall bill). </p>
+<p>The impact will vary for each business. For those who couldn’t manage their peak demand previously, this change allows them to use more energy without worrying about higher GA costs. I have two primary concerns, at the business and system level:</p>
+<ol>
+<li>Removing the optimization opportunity will directly hurt some of the Ontario businesses who used demand flexibility services - such as installing energy storage - in the expectation that it would reduce their future GA costs. It won’t, at least for two years. The change will also damage the businesses built in Ontario to deliver those services, from peak predictions to installing generators and batteries. </li>
+</ol>
+<ol start="2">
+<li>This could set the province up for difficulties later in the decade. Ontario currently has more generating capacity than it needs, both because of an unusual market design and covid-19-related demand destruction. However, it is still widely expected that the province faces a capacity shortfall - having less electricity supply than needed to safely and reliably meet demand - in the next few years. The graph below is a forecast by Ontario’s system operator, IESO, from January. </li>
+</ol>
+<p><figure class="post__image"><img loading="lazy" src="https://cavan.us/media/posts/11/IESOresourceadequacy.PNG" sizes="(max-width: 48em) 100vw, 768px" srcset="https://cavan.us/media/posts/11/responsive/IESOresourceadequacy-xs.PNG 300w ,https://cavan.us/media/posts/11/responsive/IESOresourceadequacy-sm.PNG 480w ,https://cavan.us/media/posts/11/responsive/IESOresourceadequacy-md.PNG 768w ,https://cavan.us/media/posts/11/responsive/IESOresourceadequacy-lg.PNG 1024w ,https://cavan.us/media/posts/11/responsive/IESOresourceadequacy-xl.PNG 1360w ,https://cavan.us/media/posts/11/responsive/IESOresourceadequacy-2xl.PNG 1600w"  alt="Capacity shortfall in IESO" width="1404" height="504" /></figure></p>
+<p>The numbers differ by the predictions used (when key nuclear plants are refurbished, effectiveness of energy efficiency programs, etc) but the direction is the same - on the current path, Ontario is likely to face a capacity shortfall by 2027. </p>
+<p>That short fall can be solved by increasing supply or reducing demand, or (most likely) some combination thereof. The ICI was delivering ~1600MW of demand reduction during the hottest hours of 2018, which businesses will not be incentivized to deliver for the next two summers. </p>
+<p>So, the province may be turning off a major demand flexibility program just before the system would most benefit from that flexibility. Hopefully Ontario’s businesses will be offered new opportunities to help with the grid with their energy management. </p>
+
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Hello and Goodbye to Hey</title>
+        <author>
+            <name>Peter Cavan</name>
+        </author>
+        <link href="https://cavan.us/hello-and-goodbye-to-hey/"/>
+        <id>https://cavan.us/hello-and-goodbye-to-hey/</id>
+
+        <updated>2021-06-26T21:42:00-07:00</updated>
+            <summary>
+                <![CDATA[
+                    I was invited to Basecamp’s Hey email beta on June 16, and finally got around to playing with it this week. It’s a fascinating effort which I applaud, but doesn’t deliver enough value for me to pay the $99/year asking price. Before diving into Hey,&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>I was invited to Basecamp’s <a href="https://hey.com/">Hey</a> email beta on June 16, and finally got around to playing with it this week. It’s a fascinating effort which I applaud, but doesn’t deliver enough value for me to pay the $99/year asking price.<!--more--></p>
+<p>Before diving into Hey, it’s worth explaining my current email workflow. </p>
+<ol>
+<li><p>Let’s be honest - most email is cruft. Beyond old-fashioned spam, the vast majority of email is low priority: newsletters, coupons, status updates, etc. Reading it is neither urgent nor important. All such emails I receive are filtered into an “Updates” folder which does not create any notifications. I’ll get to it when I get to it. </p>
+</li>
+<li><p>Important email, like direct notes from family members, enter a “Primary” folder which creates notifications. </p>
+</li>
+</ol>
+<p>That’s it. All email is divided into “Updates” and “Primary” - a river of cruft to be viewed whenever I can, and high priority emails to be read and dealt with.</p>
+<p>This is consistent with Hey’s perspective on email, as described by David Heinemeier Hansson on a recent <a href="https://overcast.fm/+JptgYvXNs">Basecamp podcast</a>: treat most email as a “river to be dipped into”, rather than fretting about the “Inbox Zero” goal of acting upon every email that arrives. This philosophy has been distilled into Hey application itself, which very much follows the Ruby on Rails approach of <a href="https://rubyonrails.org/doctrine/">convention over configuration</a> - it’s opinionated on how email should be handled. </p>
+<h2 id="the-hey-client">The Hey client</h2>
+<p><figure class="post__image"><img loading="lazy" src="https://cavan.us/media/posts/10/hey5.jpg" sizes="(max-width: 48em) 100vw, 768px" srcset="https://cavan.us/media/posts/10/responsive/hey5-xs.jpg 300w ,https://cavan.us/media/posts/10/responsive/hey5-sm.jpg 480w ,https://cavan.us/media/posts/10/responsive/hey5-md.jpg 768w ,https://cavan.us/media/posts/10/responsive/hey5-lg.jpg 1024w ,https://cavan.us/media/posts/10/responsive/hey5-xl.jpg 1360w ,https://cavan.us/media/posts/10/responsive/hey5-2xl.jpg 1600w"  alt="Hey screenshot" width="753" height="641" /></figure></p>
+<p>The iOS client is neatly designed and has well-written copy. The introductory emails are sensibly put together. Much of Hey’s secret sauce is requiring use of optional structures from other email services. To compare to the obvious competitor - Gmail: </p>
+<table>
+<thead>
+<tr>
+<th>Hey</th>
+<th>Gmail</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Imbox</td>
+<td>Inbox/Priority Inbox</td>
+</tr>
+<tr>
+<td>The Feed</td>
+<td>“Promotions” category</td>
+</tr>
+<tr>
+<td>Paper Trail</td>
+<td>“Updates” category</td>
+</tr>
+<tr>
+<td>Set Aside</td>
+<td>Archive</td>
+</tr>
+<tr>
+<td>Reply Later</td>
+<td>Reminders</td>
+</tr>
+</tbody></table>
+<h2 id="recommendation">Recommendation</h2>
+<p>If you struggle to create and maintain an email workflow, so would appreciate a guiding hand, Hey is worth trying. I do not so the $99/year asking price is too hard to justify. </p>
+<p>The Venn diagram of “has enough email to overwhelm,” “lacks strong workflow today” and “would pay &gt;$99/year to fix” is much larger for work than personal email, which makes Basecamp’s decision to initially focus on personal email (no custom domain support) a little strange. I understand there is a business version (referred to as “Hey Us” internally) in the works. </p>
+
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>IPv6 in 2020</title>
+        <author>
+            <name>Peter Cavan</name>
+        </author>
+        <link href="https://cavan.us/ipv6-in-2020-2/"/>
+        <id>https://cavan.us/ipv6-in-2020-2/</id>
+
+        <updated>2021-02-21T21:40:31-08:00</updated>
+            <summary>
+                <![CDATA[
+                     Briefly looked into “how is IPv6 deployment going”. Two notes: the data is very noisy, in large part due to different definitions of “deployed” - capability anywhere on an ISP’s network, capability to each end user, actual traffic from those users, etc. the absolute&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p><figure class="post__image"><img loading="lazy" src="https://cavan.us/media/posts/9/apnic.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://cavan.us/media/posts/9/responsive/apnic-xs.png 300w ,https://cavan.us/media/posts/9/responsive/apnic-sm.png 480w ,https://cavan.us/media/posts/9/responsive/apnic-md.png 768w ,https://cavan.us/media/posts/9/responsive/apnic-lg.png 1024w ,https://cavan.us/media/posts/9/responsive/apnic-xl.png 1360w ,https://cavan.us/media/posts/9/responsive/apnic-2xl.png 1600w"  alt="IPv6 graph" width="1483" height="679" /></figure></p>
+<p>Briefly looked into “how is <a href="https://en.wikipedia.org/wiki/IPv6">IPv6</a> deployment going”. <!--more-->Two notes:</p>
+<ol>
+<li><p>the data is very noisy, in large part due to different definitions of “deployed” - capability anywhere on an ISP’s network, capability to each end user, actual traffic from those users, etc. </p>
+</li>
+<li><p>the absolute numbers are noisy (see #1), but most of the trends seem to agree that deployment grew rapidly 2013-17ish (varies by country) but is now growing slowly, or even plateaued. See data atop this page for the US from APNIC (<a href="https://stats.labs.apnic.net/ipv6/US">source</a>).</p>
+</li>
+</ol>
+
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>LPG Explosion in Zhejiang Province </title>
+        <author>
+            <name>Peter Cavan</name>
+        </author>
+        <link href="https://cavan.us/lpg-explosion-in-zhejiang-province/"/>
+        <id>https://cavan.us/lpg-explosion-in-zhejiang-province/</id>
+
+        <updated>2021-02-21T21:36:30-08:00</updated>
+            <summary>
+                <![CDATA[
+                     This is what happens when an LPG truck crashes into a factory. As of today (Sunday 14th), local media is reporting 19 deaths and 172 injuries. 
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://cavan.us/media/posts/7/lpg.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://cavan.us/media/posts/7/responsive/lpg-xs.png 300w ,https://cavan.us/media/posts/7/responsive/lpg-sm.png 480w ,https://cavan.us/media/posts/7/responsive/lpg-md.png 768w ,https://cavan.us/media/posts/7/responsive/lpg-lg.png 1024w ,https://cavan.us/media/posts/7/responsive/lpg-xl.png 1360w ,https://cavan.us/media/posts/7/responsive/lpg-2xl.png 1600w"  height="818" width="1908" alt="" />
+      
+    </figure>
+
+  <p>
+    This is what happens when an LPG truck crashes into a factory. As of today (Sunday 14th), local media is reporting 19 deaths and 172 injuries.
+  </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Accidental Tech Podcast - Notes</title>
+        <author>
+            <name>Peter Cavan</name>
+        </author>
+        <link href="https://cavan.us/atp-notes/"/>
+        <id>https://cavan.us/atp-notes/</id>
+
+        <updated>2021-02-21T21:34:59-08:00</updated>
+            <summary>
+                <![CDATA[
+                    I’ve been working through the back catalog of the Accidental Tech Podcast, a long-running technology show by Marco Arment, Casey Liss and John Siracusa. When I come across something notable I’ll add it below. Marco describes the bug that was causing Overcast to crash and&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>I’ve been working through the back catalog of the Accidental Tech Podcast, a long-running technology show by Marco Arment, Casey Liss and John Siracusa. When I come across something notable I’ll add it below. <!--more-->
+<br /></p>
+<hr>
+<br />
+Two clarifications: 
+
+<ol>
+<li>“What makes the list” is simply what stands out to me.  I’m deeply interested in the craft of podcasts but am not a software engineer, so do not (for example) track the first appearance of each software language. </li>
+<li>Notes in italics paraphrase of what a host said. I am not providing a word-for-word transcription but believe each entry to be a fair representation - if you disagree, contact <a href="https://www.twitter.com/pjcavan">@PJCavan</a>. <br />
+
+</li>
+</ol>
+<h3 id="1-iphone-plus">1: iPhone Plus</h3>
+<ul>
+<li>Already good audio quality (but it gets even better). No adverts yet. </li>
+<li>First Apple device mentioned: Apple TV</li>
+<li>Marco: <em>the iPhone has to go bigger to be competitive</em></li>
+<li>John makes first height joke about Marco</li>
+</ul>
+<h3 id="2-the-7th-guest">2: The 7th Guest</h3>
+<ul>
+<li>First game console mentioned: PS4</li>
+<li>Marco: <em>want to build a game that’s simply the train network portion of Transport Tycoon, but simpler and for iOS</em> (did he verbally describe Mini Metro?)</li>
+<li>Marco: <em>good chance the PS4/Xbox One generation will be the last game consoles</em></li>
+</ul>
+<h3 id="3-conditions-led-to-freecell">3: Conditions Led To Freecell</h3>
+<ul>
+<li>Marco: <em>probably won’t buy another D-SLR</em></li>
+<li>John: <em>Apple letting you pick another keyboard is not going to happen</em></li>
+</ul>
+<h3 id="4-the-bridges">4: The Bridges</h3>
+<ul>
+<li>First mention of Mac Pro</li>
+<li>John: <em>Apple will make its own language</em> (first implicit Swift reference?)</li>
+</ul>
+<h3 id="5-negativity-skepticism-and-doubt">5: Negativity, Skepticism and Doubt</h3>
+<ul>
+<li>First Marco reference of his contemporary podcast setup (Downcast)</li>
+</ul>
+<h3 id="6-live-like-other-people">6: Live Like Other People</h3>
+<ul>
+<li>John: <em>I should buy another plasma. I don’t want to be forced to buy an LCD in 5-7 years</em></li>
+<li>Marco: <em>if Apple released a Retina display with the same construction as the new iMac screen, I’d buy it in a heartbeat</em></li>
+<li>First advert: Squarespace</li>
+</ul>
+<h3 id="7-the-forecast-for-icloud">7: The Forecast for iCloud</h3>
+<ul>
+<li>Marco: <em>iCloud as it exists will not be fixed. Will need MobileMe-like overhaul of user data model.</em></li>
+<li>First appearance of outro song, and bleeps and bloops version.</li>
+</ul>
+<h3 id="8-hold-me">8: Hold Me!</h3>
+<ul>
+<li>Marco: <em>Apple moving to Google’s browser rendering engine (Blink)? Yeah right.</em></li>
+<li>Second advertiser: Igloo</li>
+</ul>
+<h3 id="9-fish-bicycle-scenario">9: Fish Bicycle Scenario</h3>
+<ul>
+<li>First iTunes review request</li>
+<li>Marco: <em>two years I would have believed Office will come to iPad, but now Microsoft have a tablet I don’t.</em></li>
+</ul>
+<h3 id="10-gradual-ramp-up-to-nothing">10: Gradual Ramp Up To Nothing</h3>
+<ul>
+<li>Marco sold his Apple stock at $460</li>
+</ul>
+<h3 id="11-a-particularly-exuberant-adolescence">11: A Particularly Exuberant Adolescence</h3>
+<ul>
+<li>First mention of Marco’s “next app”, in context of the Instapaper sale. App not yet described.</li>
+</ul>
+<h3 id="14-pouring-champagne-onto-rap-stars">14: Pouring Champagne Onto Rap Stars</h3>
+<ul>
+<li>Marco: <em>the idea of maintaining a second house? I hate all that crap.</em></li>
+</ul>
+<h3 id="15-cat-modifier-cat">15: Cat, Modifier Cat</h3>
+<ul>
+<li>Marco: <em>I know what my next app will be. If you see what sessions I go to at WWDC you can figure it out.</em></li>
+</ul>
+<h3 id="16-john-we-dont-play-games">16: John, We Don’t Play Games</h3>
+<ul>
+<li>First rock intro - who is Casey?</li>
+</ul>
+<h3 id="17-cant-innovate-anymore">17: Can’t Innovate Anymore</h3>
+<ul>
+<li>First pre-roll advert: Backblaze</li>
+</ul>
+<h3 id="19-designed-by-app-in-cal">19: Designed by App in Cal</h3>
+<ul>
+<li>Marco: <em>I’ll use node.js when I start a project in 5 years</em> (he did, briefly)</li>
+</ul>
+<h3 id="21-the-transitive-property-of-nerdiness">21: The Transitive Property of Nerdiness</h3>
+<ul>
+<li>Marco: <em>I’m guessing Feedly will explode fast then burn out</em></li>
+</ul>
+<h3 id="25-thrustmaster-joystick">25: Thrustmaster Joystick</h3>
+<ul>
+<li>First mention of Marco’s drift removal app (Audio Align/Sidetrack; birth of Forecast?)</li>
+</ul>
+<h3 id="26-three-phones-ago">26: Three Phones Ago</h3>
+<ul>
+<li>First non-host appearance: Tiff Arment</li>
+<li>John: <em>Apple should offer equivalent GBs of owned devices as iCloud space</em> (still a reasonable request in 2020)</li>
+</ul>
+<h3 id="29-computerized-garden-gnome">29: Computerized Garden Gnome</h3>
+<ul>
+<li>John and Casey very suspicious of how reliable a “fingerprint scanner” might be. May be a toy that’s interesting for 2-3 days then ignored.</li>
+</ul>
+<h3 id="31-swimming-in-16-gb-gold">31: Swimming In 16 GB Gold</h3>
+<ul>
+<li>First reference to Apple using ARM CPU in a laptop</li>
+</ul>
+<h3 id="32-it-doesnt-bother-me">32: It Doesn’t Bother Me</h3>
+<ul>
+<li>Overcast announced in Portland then referenced on the podcast</li>
+</ul>
+<h3 id="33-a-30-minute-skip-button">33: A 30-Minute Skip Button</h3>
+<ul>
+<li>John: <em>people (other than me) should wait for the second generation of this 2013 Mac Pro.</em></li>
+<li>Marco: <em>I want to be able to tell publishers how far listeners got through their episodes.</em></li>
+</ul>
+<h3 id="34-made-the-dot-smaller">34: Made The Dot Smaller</h3>
+<ul>
+<li>Extended John rant on Apple’s server-side expertise (still largely applicable in 2020)</li>
+</ul>
+<h3 id="47-better-pixels">47: Better Pixels</h3>
+<ul>
+<li>LAN gaming discussion, v1</li>
+</ul>
+<h3 id="52-necessary-but-not-sufficient">52: Necessary But Not Sufficient</h3>
+<ul>
+<li>Marco: <em>we were invited to Patreon but I don’t feel right about putting ATP on there. We make good money through ads.</em></li>
+<li>John: <em>Patreon is fine if it’s the only way you make money. If you’re ad supported, it almost feels like you’re just trying to get a little bit extra by soaking your 200 best fans. If you’re going to soak your 200 best fans for money, I’d much rather see them get something out of it like a t-shirt because then they’re getting something which expresses their superfandom. I’d rather sell someone swag than do Patreon.</em></li>
+<li>Casey: <em>I agree on all counts.</em></li>
+</ul>
+<h3 id="67-tim-said-man">67: Tim Said, Man</h3>
+<ul>
+<li>John: <em>people would never want to wear a device tight enough to measure pulse.</em></li>
+<li>Marco: <em>hidden is good. Wearing electronics is not cool.</em> </li>
+</ul>
+<h3 id="73-notifications-duck">73: Notifications Duck</h3>
+<ul>
+<li>Casey: <em>a 5.5” phone? I can’t see that in my life; a damn tablet.</em></li>
+</ul>
+<h3 id="99-pop-up-headlights">99: Pop-Up Headlights</h3>
+<ul>
+<li>Extended “ARM MacBook” discussion, in context of MacBook 12” rumors</li>
+</ul>
+<h3 id="102-marco-is-not-a-platform">102: Marco is Not a Platform</h3>
+<ul>
+<li>Marco: <em>Is Ireland the UK? I think the bottom half is?</em></li>
+<li>Marco: <em>NSConference is in… Lie-Chester?</em></li>
+</ul>
+<h3 id="125-a-better-future-for-everybody">125: A Better Future for Everybody</h3>
+<ul>
+<li>First episode with chapters. Hooray!</li>
+</ul>
+<h3 id="135-uncomfortable-in-my-pants">135: Uncomfortable in My Pants</h3>
+<ul>
+<li>Marco releases his ad-blocker, Peace.</li>
+</ul>
+<h3 id="136-war-and-peace">136: War and Peace</h3>
+<ul>
+<li>Marco pulls and refunds Peace.</li>
+</ul>
+<h3 id="140-harpooned-a-turle">140: Harpooned a Turle</h3>
+<ul>
+<li>John: <em>I will buy a Mac Pro before I create a Perl 6 project.</em></li>
+</ul>
+<h3 id="145-lasers-and-pew-pew-and-space-aliens">145: Lasers and Pew-Pew and Space Aliens</h3>
+<ul>
+<li>John: <em>The future of tailgating will be electric pickups.</em></li>
+</ul>
+<h3 id="146-control--money--smallness">146: Control + Money + Smallness</h3>
+<ul>
+<li>First discussion of “no headphone jack in iPhone 7” rumor. Hosts skeptical Apple would do this, but Marco accurately predicts the Lightning adapter.</li>
+<li>Marco: <em>I don’t think Apple would include a passive adapter in the box. Up sell!</em></li>
+<li>Marco: <em>I’m guessing Apple will keep Lightning longer than USB-C would be the standard it would move to.</em>  </li>
+</ul>
+<h3 id="171-wwdc-is-not-santa-claus">171: WWDC Is Not Santa Claus</h3>
+<ul>
+<li>Casey: <em>Should I go Android?!</em></li>
+</ul>
+<h3 id="205-people-dont-use-the-weird-parts">205: People Don’t Use the Weird Parts</h3>
+<ul>
+<li>Chris Lattner interview</li>
+</ul>
+<h3 id="214-christmas-phone">214: Christmas Phone</h3>
+<ul>
+<li>John and Marco have lost all hope that Apple will ever make a Mac Pro. Casey unsure. </li>
+</ul>
+<h3 id="232-youve-exceeded-some-limit">232: You’ve Exceeded Some Limit</h3>
+<p>Marco describes the bug that was causing Overcast to crash and take Springboard down with it. This bug drove me utterly insane, including seriously considering (Casey voice) “should I go Android?!”</p>
+<h3 id="234-everyone-has-asterisks">234: Everyone Has Asterisks</h3>
+<ul>
+<li>Marco describes his (not implemented) exploration of providing a donation platform for podcasters within Overcast. Podcasters have found their own ways to make money and don’t want a middleman. </li>
+</ul>
+<h3 id="257-smell-the-wind">257: Smell the Wind</h3>
+<ul>
+<li>First mention of John’s cheese grater collection (no, not a Mac Pro reference)</li>
+</ul>
+<h3 id="269-cooled-by-jellyfish">269: Cooled by Jellyfish</h3>
+<ul>
+<li>First Molekule ad. Makes claims since found false by the NAD (advertising standards body).</li>
+</ul>
+<h3 id="285-do-not-drill-holes-in-this-house">285: Do Not Drill Holes in This House</h3>
+<ul>
+<li>Marco predicts the first ARM Mac in two years (2020), with the transition taking three years. </li>
+<li>Casey: around five years. </li>
+<li>John doesn’t put a stake in the ground - discusses possibilities of “2020” or “5-10+”.</li>
+</ul>
+<h3 id="291-johns-special-day">291: John’s Special Day</h3>
+<ul>
+<li>John: in the next five years (from September 2018), Apple will sell a phone smaller than the iPhone 10. </li>
+<li>Marco: doesn’t agree - $1 bet agreed.  </li>
+</ul>
+<h3 id="292-start-a-rotate-chicken-nuggets-timer">292: Start a Rotate Chicken Nuggets Timer</h3>
+<ul>
+<li>Marco added offline Apple Watch playback after WatchOS 3 because someone at Apple asked him to do so. The functionality was then broken by WatchOS 4. Added back in Overcast 5 following WatchOS 5.</li>
+</ul>
+
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>99 Beers at the Great American Beer Festival 2019</title>
+        <author>
+            <name>Peter Cavan</name>
+        </author>
+        <link href="https://cavan.us/99-beers-at-the-great-american-beer-festival-2019/"/>
+        <id>https://cavan.us/99-beers-at-the-great-american-beer-festival-2019/</id>
+
+        <updated>2021-02-21T21:31:44-08:00</updated>
+            <summary>
+                <![CDATA[
+                     Ashiyah and I visited this year’s Great American Beer Festival in Denver. It brings over 800 breweries and 4,000 beers to the US’s largest celebration of craft beer. Sadly trying all 4,000 was not on the cards, but over two three hour sessions my&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p><figure class="post__image"><img loading="lazy" src="https://cavan.us/media/posts/5/GABFbeers.jpg" sizes="(max-width: 48em) 100vw, 768px" srcset="https://cavan.us/media/posts/5/responsive/GABFbeers-xs.jpg 300w ,https://cavan.us/media/posts/5/responsive/GABFbeers-sm.jpg 480w ,https://cavan.us/media/posts/5/responsive/GABFbeers-md.jpg 768w ,https://cavan.us/media/posts/5/responsive/GABFbeers-lg.jpg 1024w ,https://cavan.us/media/posts/5/responsive/GABFbeers-xl.jpg 1360w ,https://cavan.us/media/posts/5/responsive/GABFbeers-2xl.jpg 1600w"  alt="GABF beers" width="2700" height="1800" /></figure></p>
+<p>Ashiyah and I visited this year’s <a href="https://www.greatamericanbeerfestival.com/">Great American Beer Festival</a> in Denver. It brings over 800 breweries and 4,000 beers to the US’s largest celebration of craft beer. <!--more--></p>
+<p>Sadly trying all 4,000 was not on the cards, but over two three hour sessions my trusty glass conveyed 99 samples for my tasting pleasure. </p>
+<h3 id="day-one-thursday">Day One (Thursday)</h3>
+<p>My two favorites of the night were two imperial stouts from the Chicago area - <a href="https://www.moodytongue.com/">Moody Tongue</a>’s <a href="https://www.beeradvocate.com/beer/profile/35410/311870/">Gingerbread</a> and <a href="http://www.flossmoorstation.com/">Flossmoor Station</a>’s <a href="https://www.beeradvocate.com/beer/profile/612/167508/">Shadow of the Moon</a>. Perhaps I have a ‘type’ after all.</p>
+<p>Strangest of the night goes to Reality Checker (sour series) from Florida’s <a href="http://crookedthumbbrew.com/">Crooked Thumb</a>, which was described as a Berliner Weisse but tasted precisely like an orange creamsicle.</p>
+<h3 id="day-two-saturday-afternoon">Day Two (Saturday Afternoon)</h3>
+<p>Top beer of the day goes to the <a href="https://www.beeradvocate.com/beer/profile/30824/318218/">Mexican Stout</a> by <a href="https://shipbottombrewery.com/">Ship Bottom Brewery</a> out of Beach Haven NJ. A gorgeous stout brewed with coffee, chocolates, ancho chipotle peppers, cinnamon, lactose and vanilla beans.</p>
+<p>Runner up goes to <a href="https://www.beeradvocate.com/beer/profile/10607/427858/">Master Blend: Orange Cream</a> from Brooklyn’s <a href="https://sixpoint.com">Sixpoint Brewery</a>. The orange peel adds to the imperial stout base without overwhelming it.</p>
+<h3 id="local-washington-flavor">Local Washington Flavor</h3>
+<p>Two beers from Washington’s Whatcom and Skagit counties went home with awards - a gold medal for <a href="https://wanderbrewing.com/">Wander</a>’s <a href="https://www.beeradvocate.com/beer/profile/34416/122493/">Correspondent Foreign Extra Stout</a>, plus a bronze for <a href="http://chuckanutbreweryandkitchen.com/">Chuckanut</a>’s <a href="https://www.beeradvocate.com/beer/profile/18879/258109/">Fest Bier</a> (believe it’s brewed at their Burlington location). </p>
+<h3 id="tips-for-your-next-visit">Tips For Your Next Visit</h3>
+<ul>
+<li>As you can see in the header image of this post, GABF is a packed conventional hall. Thousands of attendees crowd every lane between the beer stalls. Beating the crowds entirely is largely impossible, but if you’d like a slightly quieter experience I recommend aiming for the second half of each session. Unfortunately, you will also experience more drunks, but I only encountered one bad drunk in my six hours.</li>
+<li>Volunteers at each stall are instructed to pour 1oz tasters; in reality they typically pour 1.5-2oz. That may seem like a tiny amount but it is more than enough to get a sense of the beer. In fact, if you are aiming to experience many beers in a single session, I would strongly recommend not finishing a taster unless you’re particularly enjoying it. Save that acreage in your liver for something better. </li>
+<li>If you like to document each beer you could use an app like <a href="https://untappd.com/home">Untappd</a>, but they can be rather slow as you try to jump from beer to beer. I’d recommend either scribbling notes on paper, or using the voice memo function on your phone to record a few thoughts. </li>
+<li>There are eight bathrooms around the convention hall but they will always have queues. If you’re comfortable using a Porta Pottie, there are ~90 available in a loading dock on the Champa St side of the hall - no queue needed. </li>
+<li>Take a reusable bottle to fill with water. You’ll need to hydrate but GABF only provides 5oz disposable cups with their water coolers. Queuing for a few minutes to get 5oz of water isn’t good enough. </li>
+<li>There are photo booths dotted around the arena but don’t rely on them for top quality pictures. They featured the selfie camera of four year old Microsoft tablets, which are substantially worse than a selfie from almost any cellphone these days. Example below.</li>
+</ul>
+<p><figure class="post__image"><img loading="lazy" src="https://cavan.us/media/posts/5/GABFheadshot.jpg" sizes="(max-width: 48em) 100vw, 768px" srcset="https://cavan.us/media/posts/5/responsive/GABFheadshot-xs.jpg 300w ,https://cavan.us/media/posts/5/responsive/GABFheadshot-sm.jpg 480w ,https://cavan.us/media/posts/5/responsive/GABFheadshot-md.jpg 768w ,https://cavan.us/media/posts/5/responsive/GABFheadshot-lg.jpg 1024w ,https://cavan.us/media/posts/5/responsive/GABFheadshot-xl.jpg 1360w ,https://cavan.us/media/posts/5/responsive/GABFheadshot-2xl.jpg 1600w"  alt="GABF headshot" width="1194" height="857" /></figure></p>
+
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Brexit: Incompatible Plugs </title>
+        <author>
+            <name>Peter Cavan</name>
+        </author>
+        <link href="https://cavan.us/brexit-incompatible-plugs/"/>
+        <id>https://cavan.us/brexit-incompatible-plugs/</id>
+
+        <updated>2021-02-21T21:28:05-08:00</updated>
+            <summary>
+                <![CDATA[
+                     I’m a sucker for KAL comics, and European political commentary, and electric industry references. This comic works for me.&nbsp; 
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://cavan.us/media/posts/4/BrexitPlugs.jpg" sizes="(max-width: 48em) 100vw, 768px" srcset="https://cavan.us/media/posts/4/responsive/BrexitPlugs-xs.jpg 300w ,https://cavan.us/media/posts/4/responsive/BrexitPlugs-sm.jpg 480w ,https://cavan.us/media/posts/4/responsive/BrexitPlugs-md.jpg 768w ,https://cavan.us/media/posts/4/responsive/BrexitPlugs-lg.jpg 1024w ,https://cavan.us/media/posts/4/responsive/BrexitPlugs-xl.jpg 1360w ,https://cavan.us/media/posts/4/responsive/BrexitPlugs-2xl.jpg 1600w"  height="706" width="1024" alt="" />
+      
+    </figure>
+
+  <p>
+    I’m a sucker for KAL comics, and European political commentary, and electric industry references. This comic works for me.&nbsp;
+  </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Snow on Coast</title>
+        <author>
+            <name>Peter Cavan</name>
+        </author>
+        <link href="https://cavan.us/snow-on-coast/"/>
+        <id>https://cavan.us/snow-on-coast/</id>
+
+        <updated>2021-02-21T21:27:07-08:00</updated>
+            <summary>
+                <![CDATA[
+                     My brother-in-law’s Bug, parked on the North coast of the Olympic Peninsula in Washington state on Thursday 7 and Friday 8th. Yes, it snows in WA. No, most drivers can’t handle it. 
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://cavan.us/media/posts/3/Bug1.jpg" sizes="(max-width: 48em) 100vw, 768px" srcset="https://cavan.us/media/posts/3/responsive/Bug1-xs.jpg 300w ,https://cavan.us/media/posts/3/responsive/Bug1-sm.jpg 480w ,https://cavan.us/media/posts/3/responsive/Bug1-md.jpg 768w ,https://cavan.us/media/posts/3/responsive/Bug1-lg.jpg 1024w ,https://cavan.us/media/posts/3/responsive/Bug1-xl.jpg 1360w ,https://cavan.us/media/posts/3/responsive/Bug1-2xl.jpg 1600w"  height="1152" width="2048" alt="" />
+      
+    </figure>
+
+  <p>
+    My brother-in-law’s Bug, parked on the North coast of the Olympic Peninsula in Washington state on Thursday 7 and Friday 8th.
+<br>
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://cavan.us/media/posts/3/Bug2.jpg" sizes="(max-width: 48em) 100vw, 768px" srcset="https://cavan.us/media/posts/3/responsive/Bug2-xs.jpg 300w ,https://cavan.us/media/posts/3/responsive/Bug2-sm.jpg 480w ,https://cavan.us/media/posts/3/responsive/Bug2-md.jpg 768w ,https://cavan.us/media/posts/3/responsive/Bug2-lg.jpg 1024w ,https://cavan.us/media/posts/3/responsive/Bug2-xl.jpg 1360w ,https://cavan.us/media/posts/3/responsive/Bug2-2xl.jpg 1600w"  height="1152" width="2048" alt="" />
+      
+    </figure>
+
+  <p>
+    Yes, it snows in WA. No, most drivers can’t handle it.
+  </p>
+            ]]>
+        </content>
+    </entry>
+</feed>
