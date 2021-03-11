@@ -38,6 +38,21 @@
             "date_modified": "2021-06-26T21:42:00-07:00"
         },
         {
+            "id": "https://cavan.us/expensive-lemonade/",
+            "url": "https://cavan.us/expensive-lemonade/",
+            "title": "Expensive Lemonade",
+            "summary": "Let’s say you run a lemonade stand where you usually sell a cup for $1. A grandparent pays you a year in advance for one lemonade per week, whether or not they turn up, at 80c each. You get a check for $41.60 - you’re&hellip;",
+            "content_html": "<p>Let’s say you run a lemonade stand where you usually sell a cup for $1.</p>\n<p>A grandparent pays you a year in advance for one lemonade per week, whether or not they turn up, at 80c each. You get a check for $41.60 - you’re happy.</p>\n<p>There’s a drought and you’re the only drinks seller in the area. You sell for $5/cup that week. Some people grumble that it’s expensive but buy it anyway. When your grandparent turns up, they’re still getting their cup for the 80c they already paid.</p>\n<p>After the drought ends, your HOA says that selling at $5 was unfair so you must reprice to $2 - you have to give $3 back to everybody you sold at $5 to. If someone knew you sold 100 cups that week, they could say $300 would be returned to customers. Imagine the headlines in the neighbourhood newspaper - “lemonade stand must fix $300 pricing error!” How embarrasing.</p>\n<p>But, $300 won’t be returned. Your grandparent bought at 80c - there’s nothing to return to them. If you had lots of those deals, the total returned might be far, far less than $300.</p>\n",
+            "image": "https://cavan.us/media/posts/12/Lemonade.jpeg",
+            "author": {
+                "name": "Peter Cavan"
+            },
+            "tags": [
+            ],
+            "date_published": "2021-03-11T10:49:02-08:00",
+            "date_modified": "2021-03-11T10:49:02-08:00"
+        },
+        {
             "id": "https://cavan.us/ipv6-in-2020-2/",
             "url": "https://cavan.us/ipv6-in-2020-2/",
             "title": "IPv6 in 2020",

@@ -111,6 +111,33 @@
         </content>
     </entry>
     <entry>
+        <title>Expensive Lemonade</title>
+        <author>
+            <name>Peter Cavan</name>
+        </author>
+        <link href="https://cavan.us/expensive-lemonade/"/>
+        <id>https://cavan.us/expensive-lemonade/</id>
+
+        <updated>2021-03-11T10:49:02-08:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://cavan.us/media/posts/12/Lemonade.jpeg" alt="" />
+                    Let’s say you run a lemonade stand where you usually sell a cup for $1. A grandparent pays you a year in advance for one lemonade per week, whether or not they turn up, at 80c each. You get a check for $41.60 - you’re&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://cavan.us/media/posts/12/Lemonade.jpeg" alt="" />
+                <p>Let’s say you run a lemonade stand where you usually sell a cup for $1.</p>
+<p>A grandparent pays you a year in advance for one lemonade per week, whether or not they turn up, at 80c each. You get a check for $41.60 - you’re happy.</p>
+<p>There’s a drought and you’re the only drinks seller in the area. You sell for $5/cup that week. Some people grumble that it’s expensive but buy it anyway. When your grandparent turns up, they’re still getting their cup for the 80c they already paid.</p>
+<p>After the drought ends, your HOA says that selling at $5 was unfair so you must reprice to $2 - you have to give $3 back to everybody you sold at $5 to. If someone knew you sold 100 cups that week, they could say $300 would be returned to customers. Imagine the headlines in the neighbourhood newspaper - “lemonade stand must fix $300 pricing error!” How embarrasing.</p>
+<p>But, $300 won’t be returned. Your grandparent bought at 80c - there’s nothing to return to them. If you had lots of those deals, the total returned might be far, far less than $300.</p>
+
+            ]]>
+        </content>
+    </entry>
+    <entry>
         <title>IPv6 in 2020</title>
         <author>
             <name>Peter Cavan</name>
