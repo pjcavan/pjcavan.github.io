@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Fourth Time Lucky</title>
-    <link href="https://cavan.us/feed.xml" rel="self" />
-    <link href="https://cavan.us" />
+    <link href="https://pjcavan.github.io/feed.xml" rel="self" />
+    <link href="https://pjcavan.github.io" />
     <updated>2021-03-13T09:38:46-08:00</updated>
     <author>
         <name>Peter Cavan</name>
     </author>
-    <id>https://cavan.us</id>
+    <id>https://pjcavan.github.io</id>
 
     <entry>
         <title>Expensive Lemonade</title>
         <author>
             <name>Peter Cavan</name>
         </author>
-        <link href="https://cavan.us/expensive-lemonade/"/>
-        <id>https://cavan.us/expensive-lemonade/</id>
+        <link href="https://pjcavan.github.io/expensive-lemonade/"/>
+        <id>https://pjcavan.github.io/expensive-lemonade/</id>
             <category term="texas"/>
             <category term="energy"/>
 
         <updated>2021-03-13T09:38:04-08:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://cavan.us/media/posts/12/Lemonade.jpeg" alt="" />
+                        <img src="https://pjcavan.github.io/media/posts/12/Lemonade.jpeg" alt="" />
                     Let’s say you run a lemonade stand where you usually sell a cup for $1. A grandparent pays you a&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://cavan.us/media/posts/12/Lemonade.jpeg" alt="" />
+                    <img src="https://pjcavan.github.io/media/posts/12/Lemonade.jpeg" alt="" />
                 <p>Let’s say you run a lemonade stand where you usually sell a cup for $1.</p>
 <p>A grandparent pays you a year in advance for one lemonade per week, whether or not they turn up, at 80c each. You get a check for $41.60 - you’re happy.</p>
 <p>There’s a drought and you’re the only drinks seller in the area. You sell for $5/cup that week. Some people grumble that it’s expensive but buy it anyway. When your grandparent turns up, they’re still getting their cup for the 80c they already paid.</p>
@@ -43,8 +43,8 @@
         <author>
             <name>Peter Cavan</name>
         </author>
-        <link href="https://cavan.us/global-optimization-frozen-in-amber/"/>
-        <id>https://cavan.us/global-optimization-frozen-in-amber/</id>
+        <link href="https://pjcavan.github.io/global-optimization-frozen-in-amber/"/>
+        <id>https://pjcavan.github.io/global-optimization-frozen-in-amber/</id>
             <category term="featured"/>
             <category term="energy"/>
 
@@ -58,7 +58,7 @@
             <![CDATA[
                 <h5 id="ontario-is-fixing-what-businesses-pay-for-a-coincident-peak-demand-charge---global-adjustment-ga---for-two-years---more--">Ontario is fixing what businesses pay for a coincident peak demand charge - Global Adjustment (GA) - for two years. <!--more--></h5>
 <p>GA is the towering behemoth of Ontario’s electricity system. It transfers C$1.3 billion from energy users to generators every month, and has grown over the past decade to capture over 80% of many customers’ bills. In organized US markets the energy component is usually the majority of the cost but it’s an increasingly minor portion in Ontario (blue bars below). </p>
-<p><figure class="post__image"><img loading="lazy" src="https://cavan.us/media/posts/11/GA1.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://cavan.us/media/posts/11/responsive/GA1-xs.png 300w ,https://cavan.us/media/posts/11/responsive/GA1-sm.png 480w ,https://cavan.us/media/posts/11/responsive/GA1-md.png 768w"  alt="GA allocation" width="590" height="442" /></figure></p>
+<p><figure class="post__image"><img loading="lazy" src="https://pjcavan.github.io/media/posts/11/GA1.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://pjcavan.github.io/media/posts/11/responsive/GA1-xs.png 300w ,https://pjcavan.github.io/media/posts/11/responsive/GA1-sm.png 480w ,https://pjcavan.github.io/media/posts/11/responsive/GA1-md.png 768w"  alt="GA allocation" width="590" height="442" /></figure></p>
 <p>Larger business customers were previously able to manage how much of the GA pie they’re responsible for through the <a href="http://www.ieso.ca/-/media/files/ieso/document-library/global-adjustment/ici-backgrounder.pdf">Industrial Conservation Initiative (ICI)</a> - by reducing the power they used during the five hours of the year when the system was most stressed, they would pay lower GA costs in future years. This optimization opportunity was worth C$450,000 per MW-year[^2] for businesses who could fully reduce their demand during peak hours, such as shifting to a generator or energy storage. That is a lot - most demand response opportunities in North America are worth $30,000 to $75,000 per MW-year. </p>
 <h5 id="instead-the-ga-contribution-will-be-fixed-existing-businesses-will-continue-paying-ga-costs-in-202021-and-202122-based-on-their-peak-contribution-in-201920">Instead, the GA contribution will be fixed. Existing businesses will continue paying GA costs in 2020/21 and 2021/22 based on their peak contribution in 2019/20.</h5>
 <p>The <a href="https://news.ontario.ca/mndmf/en/2020/06/ontario-provides-stable-electricity-pricing-for-industrial-and-commercial-companies">government’s rationale</a> is that this will encourage businesses to focus on “<em>running at full tilt</em>“ as the province recovers from covid-19, particularly given the oversupply of generating capacity, and provides price stability. Businesses can greatly increase (or decrease) their peak usage over the next two years with no impact on their GA costs (and therefore minimal change to their overall bill). </p>
@@ -69,7 +69,7 @@
 <ol start="2">
 <li>This could set the province up for difficulties later in the decade. Ontario currently has more generating capacity than it needs, both because of an unusual market design and covid-19-related demand destruction. However, it is still widely expected that the province faces a capacity shortfall - having less electricity supply than needed to safely and reliably meet demand - in the next few years. The graph below is a forecast by Ontario’s system operator, IESO, from January. </li>
 </ol>
-<p><figure class="post__image"><img loading="lazy" src="https://cavan.us/media/posts/11/IESOresourceadequacy.PNG" sizes="(max-width: 48em) 100vw, 768px" srcset="https://cavan.us/media/posts/11/responsive/IESOresourceadequacy-xs.PNG 300w ,https://cavan.us/media/posts/11/responsive/IESOresourceadequacy-sm.PNG 480w ,https://cavan.us/media/posts/11/responsive/IESOresourceadequacy-md.PNG 768w"  alt="Capacity shortfall in IESO" width="1404" height="504" /></figure></p>
+<p><figure class="post__image"><img loading="lazy" src="https://pjcavan.github.io/media/posts/11/IESOresourceadequacy.PNG" sizes="(max-width: 48em) 100vw, 768px" srcset="https://pjcavan.github.io/media/posts/11/responsive/IESOresourceadequacy-xs.PNG 300w ,https://pjcavan.github.io/media/posts/11/responsive/IESOresourceadequacy-sm.PNG 480w ,https://pjcavan.github.io/media/posts/11/responsive/IESOresourceadequacy-md.PNG 768w"  alt="Capacity shortfall in IESO" width="1404" height="504" /></figure></p>
 <p>The numbers differ by the predictions used (when key nuclear plants are refurbished, effectiveness of energy efficiency programs, etc) but the direction is the same - on the current path, Ontario is likely to face a capacity shortfall by 2027. </p>
 <p>That short fall can be solved by increasing supply or reducing demand, or (most likely) some combination thereof. The ICI was delivering ~1600MW of demand reduction during the hottest hours of 2018, which businesses will not be incentivized to deliver for the next two summers. </p>
 <p>So, the province may be turning off a major demand flexibility program just before the system would most benefit from that flexibility. Hopefully Ontario’s businesses will be offered new opportunities to help with the grid with their energy management. </p>
@@ -82,8 +82,8 @@
         <author>
             <name>Peter Cavan</name>
         </author>
-        <link href="https://cavan.us/hello-and-goodbye-to-hey/"/>
-        <id>https://cavan.us/hello-and-goodbye-to-hey/</id>
+        <link href="https://pjcavan.github.io/hello-and-goodbye-to-hey/"/>
+        <id>https://pjcavan.github.io/hello-and-goodbye-to-hey/</id>
 
         <updated>2021-03-13T09:29:21-08:00</updated>
             <summary>
@@ -104,7 +104,7 @@
 <p>That’s it. All email is divided into “Updates” and “Primary” - a river of cruft to be viewed whenever I can, and high priority emails to be read and dealt with.</p>
 <p>This is consistent with Hey’s perspective on email, as described by David Heinemeier Hansson on a recent <a href="https://overcast.fm/+JptgYvXNs">Basecamp podcast</a>: treat most email as a “river to be dipped into”, rather than fretting about the “Inbox Zero” goal of acting upon every email that arrives. This philosophy has been distilled into Hey application itself, which very much follows the Ruby on Rails approach of <a href="https://rubyonrails.org/doctrine/">convention over configuration</a> - it’s opinionated on how email should be handled. </p>
 <h2 id="the-hey-client">The Hey client</h2>
-<p><figure class="post__image"><img loading="lazy" src="https://cavan.us/media/posts/10/hey5.jpg" sizes="(max-width: 48em) 100vw, 768px" srcset="https://cavan.us/media/posts/10/responsive/hey5-xs.jpg 300w ,https://cavan.us/media/posts/10/responsive/hey5-sm.jpg 480w ,https://cavan.us/media/posts/10/responsive/hey5-md.jpg 768w"  alt="Hey screenshot" width="753" height="641" /></figure></p>
+<p><figure class="post__image"><img loading="lazy" src="https://pjcavan.github.io/media/posts/10/hey5.jpg" sizes="(max-width: 48em) 100vw, 768px" srcset="https://pjcavan.github.io/media/posts/10/responsive/hey5-xs.jpg 300w ,https://pjcavan.github.io/media/posts/10/responsive/hey5-sm.jpg 480w ,https://pjcavan.github.io/media/posts/10/responsive/hey5-md.jpg 768w"  alt="Hey screenshot" width="753" height="641" /></figure></p>
 <p>The iOS client is neatly designed and has well-written copy. The introductory emails are sensibly put together. Much of Hey’s secret sauce is requiring use of optional structures from other email services. To compare to the obvious competitor - Gmail: </p>
 <table>
 <thead>
@@ -146,8 +146,8 @@
         <author>
             <name>Peter Cavan</name>
         </author>
-        <link href="https://cavan.us/ipv6-in-2020-2/"/>
-        <id>https://cavan.us/ipv6-in-2020-2/</id>
+        <link href="https://pjcavan.github.io/ipv6-in-2020-2/"/>
+        <id>https://pjcavan.github.io/ipv6-in-2020-2/</id>
 
         <updated>2021-02-21T21:40:31-08:00</updated>
             <summary>
@@ -157,7 +157,7 @@
             </summary>
         <content type="html">
             <![CDATA[
-                <p><figure class="post__image"><img loading="lazy" src="https://cavan.us/media/posts/9/apnic.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://cavan.us/media/posts/9/responsive/apnic-xs.png 300w ,https://cavan.us/media/posts/9/responsive/apnic-sm.png 480w ,https://cavan.us/media/posts/9/responsive/apnic-md.png 768w"  alt="IPv6 graph" width="1483" height="679" /></figure></p>
+                <p><figure class="post__image"><img loading="lazy" src="https://pjcavan.github.io/media/posts/9/apnic.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://pjcavan.github.io/media/posts/9/responsive/apnic-xs.png 300w ,https://pjcavan.github.io/media/posts/9/responsive/apnic-sm.png 480w ,https://pjcavan.github.io/media/posts/9/responsive/apnic-md.png 768w"  alt="IPv6 graph" width="1483" height="679" /></figure></p>
 <p>Briefly looked into “how is <a href="https://en.wikipedia.org/wiki/IPv6">IPv6</a> deployment going”. <!--more-->Two notes:</p>
 <ol>
 <li><p>the data is very noisy, in large part due to different definitions of “deployed” - capability anywhere on an ISP’s network, capability to each end user, actual traffic from those users, etc. </p>
@@ -174,8 +174,8 @@
         <author>
             <name>Peter Cavan</name>
         </author>
-        <link href="https://cavan.us/lpg-explosion-in-zhejiang-province/"/>
-        <id>https://cavan.us/lpg-explosion-in-zhejiang-province/</id>
+        <link href="https://pjcavan.github.io/lpg-explosion-in-zhejiang-province/"/>
+        <id>https://pjcavan.github.io/lpg-explosion-in-zhejiang-province/</id>
             <category term="energy"/>
 
         <updated>2021-03-13T09:38:12-08:00</updated>
@@ -188,7 +188,7 @@
             <![CDATA[
                 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://cavan.us/media/posts/7/lpg.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://cavan.us/media/posts/7/responsive/lpg-xs.png 300w ,https://cavan.us/media/posts/7/responsive/lpg-sm.png 480w ,https://cavan.us/media/posts/7/responsive/lpg-md.png 768w"  height="818" width="1908" alt="" />
+      <img loading="lazy" src="https://pjcavan.github.io/media/posts/7/lpg.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://pjcavan.github.io/media/posts/7/responsive/lpg-xs.png 300w ,https://pjcavan.github.io/media/posts/7/responsive/lpg-sm.png 480w ,https://pjcavan.github.io/media/posts/7/responsive/lpg-md.png 768w"  height="818" width="1908" alt="" />
       
     </figure>
 
@@ -203,8 +203,8 @@
         <author>
             <name>Peter Cavan</name>
         </author>
-        <link href="https://cavan.us/atp-notes/"/>
-        <id>https://cavan.us/atp-notes/</id>
+        <link href="https://pjcavan.github.io/atp-notes/"/>
+        <id>https://pjcavan.github.io/atp-notes/</id>
 
         <updated>2021-02-21T21:34:59-08:00</updated>
             <summary>
@@ -440,8 +440,8 @@ Two clarifications:
         <author>
             <name>Peter Cavan</name>
         </author>
-        <link href="https://cavan.us/99-beers-at-the-great-american-beer-festival-2019/"/>
-        <id>https://cavan.us/99-beers-at-the-great-american-beer-festival-2019/</id>
+        <link href="https://pjcavan.github.io/99-beers-at-the-great-american-beer-festival-2019/"/>
+        <id>https://pjcavan.github.io/99-beers-at-the-great-american-beer-festival-2019/</id>
             <category term="featured"/>
             <category term="beer"/>
 
@@ -453,7 +453,7 @@ Two clarifications:
             </summary>
         <content type="html">
             <![CDATA[
-                <p><figure class="post__image"><img loading="lazy" src="https://cavan.us/media/posts/5/GABFbeers.jpg" sizes="(max-width: 48em) 100vw, 768px" srcset="https://cavan.us/media/posts/5/responsive/GABFbeers-xs.jpg 300w ,https://cavan.us/media/posts/5/responsive/GABFbeers-sm.jpg 480w ,https://cavan.us/media/posts/5/responsive/GABFbeers-md.jpg 768w"  alt="GABF beers" width="2700" height="1800" /></figure></p>
+                <p><figure class="post__image"><img loading="lazy" src="https://pjcavan.github.io/media/posts/5/GABFbeers.jpg" sizes="(max-width: 48em) 100vw, 768px" srcset="https://pjcavan.github.io/media/posts/5/responsive/GABFbeers-xs.jpg 300w ,https://pjcavan.github.io/media/posts/5/responsive/GABFbeers-sm.jpg 480w ,https://pjcavan.github.io/media/posts/5/responsive/GABFbeers-md.jpg 768w"  alt="GABF beers" width="2700" height="1800" /></figure></p>
 <p>Ashiyah and I visited this year’s <a href="https://www.greatamericanbeerfestival.com/">Great American Beer Festival</a> in Denver. It brings over 800 breweries and 4,000 beers to the US’s largest celebration of craft beer. <!--more--></p>
 <p>Sadly trying all 4,000 was not on the cards, but over two three hour sessions my trusty glass conveyed 99 samples for my tasting pleasure. </p>
 <h3 id="day-one-thursday">Day One (Thursday)</h3>
@@ -473,7 +473,7 @@ Two clarifications:
 <li>Take a reusable bottle to fill with water. You’ll need to hydrate but GABF only provides 5oz disposable cups with their water coolers. Queuing for a few minutes to get 5oz of water isn’t good enough. </li>
 <li>There are photo booths dotted around the arena but don’t rely on them for top quality pictures. They featured the selfie camera of four year old Microsoft tablets, which are substantially worse than a selfie from almost any cellphone these days. Example below.</li>
 </ul>
-<p><figure class="post__image"><img loading="lazy" src="https://cavan.us/media/posts/5/GABFheadshot.jpg" sizes="(max-width: 48em) 100vw, 768px" srcset="https://cavan.us/media/posts/5/responsive/GABFheadshot-xs.jpg 300w ,https://cavan.us/media/posts/5/responsive/GABFheadshot-sm.jpg 480w ,https://cavan.us/media/posts/5/responsive/GABFheadshot-md.jpg 768w"  alt="GABF headshot" width="1194" height="857" /></figure></p>
+<p><figure class="post__image"><img loading="lazy" src="https://pjcavan.github.io/media/posts/5/GABFheadshot.jpg" sizes="(max-width: 48em) 100vw, 768px" srcset="https://pjcavan.github.io/media/posts/5/responsive/GABFheadshot-xs.jpg 300w ,https://pjcavan.github.io/media/posts/5/responsive/GABFheadshot-sm.jpg 480w ,https://pjcavan.github.io/media/posts/5/responsive/GABFheadshot-md.jpg 768w"  alt="GABF headshot" width="1194" height="857" /></figure></p>
 
             ]]>
         </content>
@@ -483,8 +483,8 @@ Two clarifications:
         <author>
             <name>Peter Cavan</name>
         </author>
-        <link href="https://cavan.us/brexit-incompatible-plugs/"/>
-        <id>https://cavan.us/brexit-incompatible-plugs/</id>
+        <link href="https://pjcavan.github.io/brexit-incompatible-plugs/"/>
+        <id>https://pjcavan.github.io/brexit-incompatible-plugs/</id>
 
         <updated>2021-02-21T21:28:05-08:00</updated>
             <summary>
@@ -496,7 +496,7 @@ Two clarifications:
             <![CDATA[
                 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://cavan.us/media/posts/4/BrexitPlugs.jpg" sizes="(max-width: 48em) 100vw, 768px" srcset="https://cavan.us/media/posts/4/responsive/BrexitPlugs-xs.jpg 300w ,https://cavan.us/media/posts/4/responsive/BrexitPlugs-sm.jpg 480w ,https://cavan.us/media/posts/4/responsive/BrexitPlugs-md.jpg 768w"  height="706" width="1024" alt="" />
+      <img loading="lazy" src="https://pjcavan.github.io/media/posts/4/BrexitPlugs.jpg" sizes="(max-width: 48em) 100vw, 768px" srcset="https://pjcavan.github.io/media/posts/4/responsive/BrexitPlugs-xs.jpg 300w ,https://pjcavan.github.io/media/posts/4/responsive/BrexitPlugs-sm.jpg 480w ,https://pjcavan.github.io/media/posts/4/responsive/BrexitPlugs-md.jpg 768w"  height="706" width="1024" alt="" />
       
     </figure>
 
@@ -511,8 +511,8 @@ Two clarifications:
         <author>
             <name>Peter Cavan</name>
         </author>
-        <link href="https://cavan.us/snow-on-coast/"/>
-        <id>https://cavan.us/snow-on-coast/</id>
+        <link href="https://pjcavan.github.io/snow-on-coast/"/>
+        <id>https://pjcavan.github.io/snow-on-coast/</id>
 
         <updated>2021-02-21T21:27:07-08:00</updated>
             <summary>
@@ -524,7 +524,7 @@ Two clarifications:
             <![CDATA[
                 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://cavan.us/media/posts/3/Bug1.jpg" sizes="(max-width: 48em) 100vw, 768px" srcset="https://cavan.us/media/posts/3/responsive/Bug1-xs.jpg 300w ,https://cavan.us/media/posts/3/responsive/Bug1-sm.jpg 480w ,https://cavan.us/media/posts/3/responsive/Bug1-md.jpg 768w"  height="1152" width="2048" alt="" />
+      <img loading="lazy" src="https://pjcavan.github.io/media/posts/3/Bug1.jpg" sizes="(max-width: 48em) 100vw, 768px" srcset="https://pjcavan.github.io/media/posts/3/responsive/Bug1-xs.jpg 300w ,https://pjcavan.github.io/media/posts/3/responsive/Bug1-sm.jpg 480w ,https://pjcavan.github.io/media/posts/3/responsive/Bug1-md.jpg 768w"  height="1152" width="2048" alt="" />
       
     </figure>
 
@@ -534,7 +534,7 @@ Two clarifications:
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://cavan.us/media/posts/3/Bug2.jpg" sizes="(max-width: 48em) 100vw, 768px" srcset="https://cavan.us/media/posts/3/responsive/Bug2-xs.jpg 300w ,https://cavan.us/media/posts/3/responsive/Bug2-sm.jpg 480w ,https://cavan.us/media/posts/3/responsive/Bug2-md.jpg 768w"  height="1152" width="2048" alt="" />
+      <img loading="lazy" src="https://pjcavan.github.io/media/posts/3/Bug2.jpg" sizes="(max-width: 48em) 100vw, 768px" srcset="https://pjcavan.github.io/media/posts/3/responsive/Bug2-xs.jpg 300w ,https://pjcavan.github.io/media/posts/3/responsive/Bug2-sm.jpg 480w ,https://pjcavan.github.io/media/posts/3/responsive/Bug2-md.jpg 768w"  height="1152" width="2048" alt="" />
       
     </figure>
 
