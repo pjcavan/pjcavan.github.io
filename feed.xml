@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Fourth Time Lucky</title>
-    <link href="https://pjcavan.github.io/feed.xml" rel="self" />
-    <link href="https://pjcavan.github.io" />
+    <link href="https://cavan.us/feed.xml" rel="self" />
+    <link href="https://cavan.us" />
     <updated>2022-02-06T18:22:56-08:00</updated>
     <author>
         <name>Peter J. Cavan</name>
     </author>
-    <id>https://pjcavan.github.io</id>
+    <id>https://cavan.us</id>
 
     <entry>
         <title>Short Power in Long Island</title>
         <author>
             <name>Peter J. Cavan</name>
         </author>
-        <link href="https://pjcavan.github.io/short-power-in-long-island/"/>
-        <id>https://pjcavan.github.io/short-power-in-long-island/</id>
+        <link href="https://cavan.us/short-power-in-long-island/"/>
+        <id>https://cavan.us/short-power-in-long-island/</id>
             <category term="new york"/>
             <category term="energy"/>
 
@@ -30,8 +30,8 @@
                 <p class="reader-text-block__paragraph"><em>Friday 13th update: LIPA is telling its customers to cut "all nonessential" usage this afternoon as they struggle with the issues below. It's all hands on deck to keep the lights (and air conditioning) on today. Thursday's story continues below.</em></p>
 <p class="reader-text-block__paragraph">Long Island faces some of the nation's highest wholesale electricity prices. The peninsula/island* has challenges including an older, dirtier generation fleet; more reliance on fuel oil; and frequent congestion (and outages) on the few large transmission lines that connect it to the rest of the state and New England.</p>
 <p class="reader-text-block__paragraph">This week saw a striking combination of those challenges. The wholesale power market, NYISO, is arranged into zones, of which K covers Long Island.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://pjcavan.github.io/media/posts/11/LI1.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://pjcavan.github.io/media/posts/11/responsive/LI1-xs.png 300w ,https://pjcavan.github.io/media/posts/11/responsive/LI1-sm.png 480w ,https://pjcavan.github.io/media/posts/11/responsive/LI1-md.png 768w"  alt="NYISO load control zones shown on map" width="957" height="781"></figure>This is the real-time wholesale electricity price (LBMP) for Zone K over Wednesday and Thursday of this week.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://pjcavan.github.io/media/posts/11/LI2.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://pjcavan.github.io/media/posts/11/responsive/LI2-xs.png 300w ,https://pjcavan.github.io/media/posts/11/responsive/LI2-sm.png 480w ,https://pjcavan.github.io/media/posts/11/responsive/LI2-md.png 768w"  alt="Price action for NYISO zone K on August 11 and 12 2021" width="1263" height="688"></figure>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://cavan.us/media/posts/11/LI1.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://cavan.us/media/posts/11/responsive/LI1-xs.png 300w ,https://cavan.us/media/posts/11/responsive/LI1-sm.png 480w ,https://cavan.us/media/posts/11/responsive/LI1-md.png 768w"  alt="NYISO load control zones shown on map" width="957" height="781"></figure>This is the real-time wholesale electricity price (LBMP) for Zone K over Wednesday and Thursday of this week.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://cavan.us/media/posts/11/LI2.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://cavan.us/media/posts/11/responsive/LI2-xs.png 300w ,https://cavan.us/media/posts/11/responsive/LI2-sm.png 480w ,https://cavan.us/media/posts/11/responsive/LI2-md.png 768w"  alt="Price action for NYISO zone K on August 11 and 12 2021" width="1263" height="688"></figure>
 <p class="reader-text-block__paragraph">There are three items worth calling out:</p>
 <ol>
 <li> For a single five-minute period at 8am on Wednesday morning, the price was driven to negative $3,855.86 per MWh. This is likely due to multiple constraints in the market model being infeasible following transmission challenges - no selection of available resources would give the model the output it wanted, so pricing moves to a steeply-sloped transmission outage demand curve. At this morning's Operating Committee NYISO were not ready to discuss the issue but I expect them to return with an explanation - so far, they've simply confirmed that the price was not a mistake.</li>
@@ -55,8 +55,8 @@
         <author>
             <name>Peter J. Cavan</name>
         </author>
-        <link href="https://pjcavan.github.io/expensive-lemonade/"/>
-        <id>https://pjcavan.github.io/expensive-lemonade/</id>
+        <link href="https://cavan.us/expensive-lemonade/"/>
+        <id>https://cavan.us/expensive-lemonade/</id>
             <category term="energy"/>
             <category term="analogy"/>
 
@@ -68,7 +68,7 @@
             </summary>
         <content type="html">
             <![CDATA[
-                <figure class="post__image post__image--center"><img loading="lazy"  src="https://pjcavan.github.io/media/posts/1/Lemonade.jpeg" sizes="(max-width: 48em) 100vw, 768px" srcset="https://pjcavan.github.io/media/posts/1/responsive/Lemonade-xs.jpeg 300w ,https://pjcavan.github.io/media/posts/1/responsive/Lemonade-sm.jpeg 480w ,https://pjcavan.github.io/media/posts/1/responsive/Lemonade-md.jpeg 768w"  alt="glass of lemonade" width="3375" height="2250"></figure>
+                <figure class="post__image post__image--center"><img loading="lazy"  src="https://cavan.us/media/posts/1/Lemonade.jpeg" sizes="(max-width: 48em) 100vw, 768px" srcset="https://cavan.us/media/posts/1/responsive/Lemonade-xs.jpeg 300w ,https://cavan.us/media/posts/1/responsive/Lemonade-sm.jpeg 480w ,https://cavan.us/media/posts/1/responsive/Lemonade-md.jpeg 768w"  alt="glass of lemonade" width="3375" height="2250"></figure>
 <p>Let’s say you run a lemonade stand where you usually sell a cup for $1.</p>
 <p>A grandparent pays you a year in advance for one lemonade per week, whether or not they turn up, at 80c each. You get a check for $41.60 - you’re happy.</p>
 <p>There’s a drought and you’re the only drinks seller in the area. You sell for $5/cup that week. Some people grumble that it’s expensive but buy it anyway. When your grandparent turns up, they’re still getting their cup for the 80c they already paid.</p>
@@ -82,8 +82,8 @@
         <author>
             <name>Peter J. Cavan</name>
         </author>
-        <link href="https://pjcavan.github.io/brexit-incompatible-plugs/"/>
-        <id>https://pjcavan.github.io/brexit-incompatible-plugs/</id>
+        <link href="https://cavan.us/brexit-incompatible-plugs/"/>
+        <id>https://cavan.us/brexit-incompatible-plugs/</id>
             <category term="comic"/>
 
         <updated>2022-02-06T18:22:13-08:00</updated>
@@ -94,7 +94,7 @@
             </summary>
         <content type="html">
             <![CDATA[
-                <figure class="post__image post__image--center"><img loading="lazy"  src="https://pjcavan.github.io/media/posts/3/BrexitPlugs.jpg" sizes="(max-width: 48em) 100vw, 768px" srcset="https://pjcavan.github.io/media/posts/3/responsive/BrexitPlugs-xs.jpg 300w ,https://pjcavan.github.io/media/posts/3/responsive/BrexitPlugs-sm.jpg 480w ,https://pjcavan.github.io/media/posts/3/responsive/BrexitPlugs-md.jpg 768w"  alt="KAL comic from the Economist" width="1024" height="706"></figure>
+                <figure class="post__image post__image--center"><img loading="lazy"  src="https://cavan.us/media/posts/3/BrexitPlugs.jpg" sizes="(max-width: 48em) 100vw, 768px" srcset="https://cavan.us/media/posts/3/responsive/BrexitPlugs-xs.jpg 300w ,https://cavan.us/media/posts/3/responsive/BrexitPlugs-sm.jpg 480w ,https://cavan.us/media/posts/3/responsive/BrexitPlugs-md.jpg 768w"  alt="KAL comic from the Economist" width="1024" height="706"></figure>
 <p>I’m a sucker for KAL comics, and European political commentary, and electric industry references. This comic works for me. </p>
             ]]>
         </content>
@@ -104,8 +104,8 @@
         <author>
             <name>Peter J. Cavan</name>
         </author>
-        <link href="https://pjcavan.github.io/snow-on-coast/"/>
-        <id>https://pjcavan.github.io/snow-on-coast/</id>
+        <link href="https://cavan.us/snow-on-coast/"/>
+        <id>https://cavan.us/snow-on-coast/</id>
             <category term="winter"/>
 
         <updated>2022-02-06T18:22:38-08:00</updated>
@@ -116,9 +116,9 @@
             </summary>
         <content type="html">
             <![CDATA[
-                <figure class="post__image post__image--center"><img loading="lazy"  src="https://pjcavan.github.io/media/posts/2/Bug1.jpg" sizes="(max-width: 48em) 100vw, 768px" srcset="https://pjcavan.github.io/media/posts/2/responsive/Bug1-xs.jpg 300w ,https://pjcavan.github.io/media/posts/2/responsive/Bug1-sm.jpg 480w ,https://pjcavan.github.io/media/posts/2/responsive/Bug1-md.jpg 768w"  alt="VW bug amongst snow" width="2048" height="1152"></figure>
+                <figure class="post__image post__image--center"><img loading="lazy"  src="https://cavan.us/media/posts/2/Bug1.jpg" sizes="(max-width: 48em) 100vw, 768px" srcset="https://cavan.us/media/posts/2/responsive/Bug1-xs.jpg 300w ,https://cavan.us/media/posts/2/responsive/Bug1-sm.jpg 480w ,https://cavan.us/media/posts/2/responsive/Bug1-md.jpg 768w"  alt="VW bug amongst snow" width="2048" height="1152"></figure>
 <p>My brother-in-law’s Bug, parked on the North coast of the Olympic Peninsula in Washington state on Thursday 7 and Friday 8th.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://pjcavan.github.io/media/posts/2/Bug2.jpg" sizes="(max-width: 48em) 100vw, 768px" srcset="https://pjcavan.github.io/media/posts/2/responsive/Bug2-xs.jpg 300w ,https://pjcavan.github.io/media/posts/2/responsive/Bug2-sm.jpg 480w ,https://pjcavan.github.io/media/posts/2/responsive/Bug2-md.jpg 768w"  alt="VW Bug in snow" width="2048" height="1152"></figure>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://cavan.us/media/posts/2/Bug2.jpg" sizes="(max-width: 48em) 100vw, 768px" srcset="https://cavan.us/media/posts/2/responsive/Bug2-xs.jpg 300w ,https://cavan.us/media/posts/2/responsive/Bug2-sm.jpg 480w ,https://cavan.us/media/posts/2/responsive/Bug2-md.jpg 768w"  alt="VW Bug in snow" width="2048" height="1152"></figure>
 <p>Yes, it snows in WA. No, most drivers can’t handle it.</p>
             ]]>
         </content>
@@ -128,8 +128,8 @@
         <author>
             <name>Peter J. Cavan</name>
         </author>
-        <link href="https://pjcavan.github.io/global-optimization-frozen-in-amber/"/>
-        <id>https://pjcavan.github.io/global-optimization-frozen-in-amber/</id>
+        <link href="https://cavan.us/global-optimization-frozen-in-amber/"/>
+        <id>https://cavan.us/global-optimization-frozen-in-amber/</id>
             <category term="ontario"/>
             <category term="energy"/>
 
@@ -143,7 +143,7 @@
             <![CDATA[
                 <h5 id="ontario-is-fixing-what-businesses-pay-for-a-coincident-peak-demand-charge---global-adjustment-ga---for-two-years---more--">Ontario is fixing what businesses pay for a coincident peak demand charge - Global Adjustment (GA) - for two years.</h5>
 <p>GA is the towering behemoth of Ontario’s electricity system. It transfers C$1.3 billion from energy users to generators every month, and has grown over the past decade to capture over 80% of many customers’ bills. In organized US markets the energy component is usually the majority of the cost but it’s an increasingly minor portion in Ontario (blue bars below).</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://pjcavan.github.io/media/posts/10/GA1.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://pjcavan.github.io/media/posts/10/responsive/GA1-xs.png 300w ,https://pjcavan.github.io/media/posts/10/responsive/GA1-sm.png 480w ,https://pjcavan.github.io/media/posts/10/responsive/GA1-md.png 768w"  alt="chart showing relative (and absolute) growth of Global Adjustment over time" width="590" height="442"></figure>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://cavan.us/media/posts/10/GA1.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://cavan.us/media/posts/10/responsive/GA1-xs.png 300w ,https://cavan.us/media/posts/10/responsive/GA1-sm.png 480w ,https://cavan.us/media/posts/10/responsive/GA1-md.png 768w"  alt="chart showing relative (and absolute) growth of Global Adjustment over time" width="590" height="442"></figure>
 <p>Larger business customers were previously able to manage how much of the GA pie they’re responsible for through the <a href="http://www.ieso.ca/-/media/files/ieso/document-library/global-adjustment/ici-backgrounder.pdf">Industrial Conservation Initiative (ICI)</a> - by reducing the power they used during the five hours of the year when the system was most stressed, they would pay lower GA costs in future years. This optimization opportunity was worth C$450,000 per MW-year[^2] for businesses who could fully reduce their demand during peak hours, such as shifting to a generator or energy storage. That is a lot - most demand response opportunities in North America are worth $30,000 to $75,000 per MW-year.</p>
 <h5 id="instead-the-ga-contribution-will-be-fixed-existing-businesses-will-continue-paying-ga-costs-in-202021-and-202122-based-on-their-peak-contribution-in-201920">Instead, the GA contribution will be fixed. Existing businesses will continue paying GA costs in 2020/21 and 2021/22 based on their peak contribution in 2019/20.</h5>
 <p>The <a href="https://news.ontario.ca/mndmf/en/2020/06/ontario-provides-stable-electricity-pricing-for-industrial-and-commercial-companies">government’s rationale</a> is that this will encourage businesses to focus on “<em>running at full tilt</em>“ as the province recovers from covid-19, particularly given the oversupply of generating capacity, and provides price stability. Businesses can greatly increase (or decrease) their peak usage over the next two years with no impact on their GA costs (and therefore minimal change to their overall bill).</p>
@@ -154,7 +154,7 @@
 <ol start="2">
 <li>This could set the province up for difficulties later in the decade. Ontario currently has more generating capacity than it needs, both because of an unusual market design and covid-19-related demand destruction. However, it is still widely expected that the province faces a capacity shortfall - having less electricity supply than needed to safely and reliably meet demand - in the next few years. The graph below is a forecast by Ontario’s system operator, IESO, from January.</li>
 </ol>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://pjcavan.github.io/media/posts/10/IESOresourceadequacy.PNG" sizes="(max-width: 48em) 100vw, 768px" srcset="https://pjcavan.github.io/media/posts/10/responsive/IESOresourceadequacy-xs.PNG 300w ,https://pjcavan.github.io/media/posts/10/responsive/IESOresourceadequacy-sm.PNG 480w ,https://pjcavan.github.io/media/posts/10/responsive/IESOresourceadequacy-md.PNG 768w"  alt="IESO prediction of future capacity deficit" width="1404" height="504"></figure>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://cavan.us/media/posts/10/IESOresourceadequacy.PNG" sizes="(max-width: 48em) 100vw, 768px" srcset="https://cavan.us/media/posts/10/responsive/IESOresourceadequacy-xs.PNG 300w ,https://cavan.us/media/posts/10/responsive/IESOresourceadequacy-sm.PNG 480w ,https://cavan.us/media/posts/10/responsive/IESOresourceadequacy-md.PNG 768w"  alt="IESO prediction of future capacity deficit" width="1404" height="504"></figure>
 <p>The numbers differ by the predictions used (when key nuclear plants are refurbished, effectiveness of energy efficiency programs, etc) but the direction is the same - on the current path, Ontario is likely to face a capacity shortfall by 2027.</p>
 <p>That short fall can be solved by increasing supply or reducing demand, or (most likely) some combination thereof. The ICI was delivering ~1600MW of demand reduction during the hottest hours of 2018, which businesses will not be incentivized to deliver for the next two summers.</p>
 <p>So, the province may be turning off a major demand flexibility program just before the system would most benefit from that flexibility. Hopefully Ontario’s businesses will be offered new opportunities to help with the grid with their energy management.</p>
@@ -166,8 +166,8 @@
         <author>
             <name>Peter J. Cavan</name>
         </author>
-        <link href="https://pjcavan.github.io/ipv6-in-2020/"/>
-        <id>https://pjcavan.github.io/ipv6-in-2020/</id>
+        <link href="https://cavan.us/ipv6-in-2020/"/>
+        <id>https://cavan.us/ipv6-in-2020/</id>
             <category term="tech"/>
             <category term="chart"/>
 
@@ -181,7 +181,7 @@
             <![CDATA[
                 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://pjcavan.github.io/media/posts/8/apnic.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://pjcavan.github.io/media/posts/8/responsive/apnic-xs.png 300w ,https://pjcavan.github.io/media/posts/8/responsive/apnic-sm.png 480w ,https://pjcavan.github.io/media/posts/8/responsive/apnic-md.png 768w"  height="679" width="1483" alt="" />
+      <img loading="lazy" src="https://cavan.us/media/posts/8/apnic.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://cavan.us/media/posts/8/responsive/apnic-xs.png 300w ,https://cavan.us/media/posts/8/responsive/apnic-sm.png 480w ,https://cavan.us/media/posts/8/responsive/apnic-md.png 768w"  height="679" width="1483" alt="" />
       
     </figure>
 
@@ -200,8 +200,8 @@
         <author>
             <name>Peter J. Cavan</name>
         </author>
-        <link href="https://pjcavan.github.io/lpg-explosion-in-zhejiang-province/"/>
-        <id>https://pjcavan.github.io/lpg-explosion-in-zhejiang-province/</id>
+        <link href="https://cavan.us/lpg-explosion-in-zhejiang-province/"/>
+        <id>https://cavan.us/lpg-explosion-in-zhejiang-province/</id>
             <category term="energy"/>
             <category term="china"/>
 
@@ -215,7 +215,7 @@
             <![CDATA[
                 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://pjcavan.github.io/media/posts/7/lpg.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://pjcavan.github.io/media/posts/7/responsive/lpg-xs.png 300w ,https://pjcavan.github.io/media/posts/7/responsive/lpg-sm.png 480w ,https://pjcavan.github.io/media/posts/7/responsive/lpg-md.png 768w"  height="818" width="1908" alt="" />
+      <img loading="lazy" src="https://cavan.us/media/posts/7/lpg.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://cavan.us/media/posts/7/responsive/lpg-xs.png 300w ,https://cavan.us/media/posts/7/responsive/lpg-sm.png 480w ,https://cavan.us/media/posts/7/responsive/lpg-md.png 768w"  height="818" width="1908" alt="" />
       
     </figure>
 
@@ -230,8 +230,8 @@
         <author>
             <name>Peter J. Cavan</name>
         </author>
-        <link href="https://pjcavan.github.io/accidental-tech-podcast-notes/"/>
-        <id>https://pjcavan.github.io/accidental-tech-podcast-notes/</id>
+        <link href="https://cavan.us/accidental-tech-podcast-notes/"/>
+        <id>https://cavan.us/accidental-tech-podcast-notes/</id>
             <category term="tech"/>
             <category term="podcast"/>
 
@@ -469,8 +469,8 @@ Two clarifications:
         <author>
             <name>Peter J. Cavan</name>
         </author>
-        <link href="https://pjcavan.github.io/hello-and-goodbye-to-hey/"/>
-        <id>https://pjcavan.github.io/hello-and-goodbye-to-hey/</id>
+        <link href="https://cavan.us/hello-and-goodbye-to-hey/"/>
+        <id>https://cavan.us/hello-and-goodbye-to-hey/</id>
             <category term="tech"/>
             <category term="email"/>
             <category term="basecamp"/>
@@ -496,7 +496,7 @@ Two clarifications:
 <p>That’s it. All email is divided into “Updates” and “Primary” - a river of cruft to be viewed whenever I can, and high priority emails to be read and dealt with.</p>
 <p>This is consistent with Hey’s perspective on email, as described by David Heinemeier Hansson on a recent <a href="https://overcast.fm/+JptgYvXNs">Basecamp podcast</a>: treat most email as a “river to be dipped into”, rather than fretting about the “Inbox Zero” goal of acting upon every email that arrives. This philosophy has been distilled into Hey application itself, which very much follows the Ruby on Rails approach of <a href="https://rubyonrails.org/doctrine/">convention over configuration</a> - it’s opinionated on how email should be handled.</p>
 <h2>The Hey Client</h2>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://pjcavan.github.io/media/posts/9//hey5.jpg" sizes="(max-width: 48em) 100vw, 768px" srcset="https://pjcavan.github.io/media/posts/9//responsive/hey5-xs.jpg 300w ,https://pjcavan.github.io/media/posts/9//responsive/hey5-sm.jpg 480w ,https://pjcavan.github.io/media/posts/9//responsive/hey5-md.jpg 768w"  alt="screenshot of Hey email service" width="753" height="641"></figure>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://cavan.us/media/posts/9//hey5.jpg" sizes="(max-width: 48em) 100vw, 768px" srcset="https://cavan.us/media/posts/9//responsive/hey5-xs.jpg 300w ,https://cavan.us/media/posts/9//responsive/hey5-sm.jpg 480w ,https://cavan.us/media/posts/9//responsive/hey5-md.jpg 768w"  alt="screenshot of Hey email service" width="753" height="641"></figure>
 <p>The iOS client is neatly designed and has well-written copy. The introductory emails are sensibly put together. Much of Hey’s secret sauce is requiring use of optional structures from other email services. To compare to the obvious competitor - Gmail:</p>
 <table style="border-collapse: collapse; width: 100%;" border="1">
 <tbody>
@@ -537,8 +537,8 @@ Two clarifications:
         <author>
             <name>Peter J. Cavan</name>
         </author>
-        <link href="https://pjcavan.github.io/99-beers-at-the-great-american-beer-festival-2019-2/"/>
-        <id>https://pjcavan.github.io/99-beers-at-the-great-american-beer-festival-2019-2/</id>
+        <link href="https://cavan.us/99-beers-at-the-great-american-beer-festival-2019-2/"/>
+        <id>https://cavan.us/99-beers-at-the-great-american-beer-festival-2019-2/</id>
             <category term="colorado"/>
             <category term="beer"/>
 
@@ -552,7 +552,7 @@ Two clarifications:
             <![CDATA[
                 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://pjcavan.github.io/media/posts/5/GABFbeers.jpg" sizes="(max-width: 48em) 100vw, 768px" srcset="https://pjcavan.github.io/media/posts/5/responsive/GABFbeers-xs.jpg 300w ,https://pjcavan.github.io/media/posts/5/responsive/GABFbeers-sm.jpg 480w ,https://pjcavan.github.io/media/posts/5/responsive/GABFbeers-md.jpg 768w"  height="1800" width="2700" alt="" />
+      <img loading="lazy" src="https://cavan.us/media/posts/5/GABFbeers.jpg" sizes="(max-width: 48em) 100vw, 768px" srcset="https://cavan.us/media/posts/5/responsive/GABFbeers-xs.jpg 300w ,https://cavan.us/media/posts/5/responsive/GABFbeers-sm.jpg 480w ,https://cavan.us/media/posts/5/responsive/GABFbeers-md.jpg 768w"  height="1800" width="2700" alt="" />
       
     </figure>
 
@@ -599,7 +599,7 @@ Two clarifications:
   </ul>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://pjcavan.github.io/media/posts/5/GABFheadshot.jpg" sizes="(max-width: 48em) 100vw, 768px" srcset="https://pjcavan.github.io/media/posts/5/responsive/GABFheadshot-xs.jpg 300w ,https://pjcavan.github.io/media/posts/5/responsive/GABFheadshot-sm.jpg 480w ,https://pjcavan.github.io/media/posts/5/responsive/GABFheadshot-md.jpg 768w"  height="857" width="1194" alt="" />
+      <img loading="lazy" src="https://cavan.us/media/posts/5/GABFheadshot.jpg" sizes="(max-width: 48em) 100vw, 768px" srcset="https://cavan.us/media/posts/5/responsive/GABFheadshot-xs.jpg 300w ,https://cavan.us/media/posts/5/responsive/GABFheadshot-sm.jpg 480w ,https://cavan.us/media/posts/5/responsive/GABFheadshot-md.jpg 768w"  height="857" width="1194" alt="" />
       
     </figure>
             ]]>

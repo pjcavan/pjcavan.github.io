@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap: https://pjcavan.github.io/sitemap.xml
+Sitemap: https://cavan.us/sitemap.xml
