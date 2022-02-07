@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="https://pjcavan.github.io/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<url>
+<loc>https://pjcavan.github.io/</loc>
+</url>
+<url>
+<loc>https://pjcavan.github.io/99-beers-at-the-great-american-beer-festival-2019-2/</loc>
+<lastmod>2022-02-06T18:21:59-08:00</lastmod>
+</url>
+<url>
+<loc>https://pjcavan.github.io/accidental-tech-podcast-notes/</loc>
+<lastmod>2022-02-06T18:21:41-08:00</lastmod>
+</url>
+<url>
+<loc>https://pjcavan.github.io/brexit-incompatible-plugs/</loc>
+<lastmod>2022-02-06T18:22:13-08:00</lastmod>
+<image:image>
+<image:loc>https://pjcavan.github.io/media\posts\3/BrexitPlugs.jpg</image:loc>
+<image:title><![CDATA[KAL comic from the Economist]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://pjcavan.github.io/expensive-lemonade/</loc>
+<lastmod>2022-02-06T18:22:56-08:00</lastmod>
+<image:image>
+<image:loc>https://pjcavan.github.io/media\posts\1/Lemonade.jpeg</image:loc>
+<image:title><![CDATA[glass of lemonade]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://pjcavan.github.io/global-optimization-frozen-in-amber/</loc>
+<lastmod>2022-02-06T18:20:12-08:00</lastmod>
+<image:image>
+<image:loc>https://pjcavan.github.io/media\posts\10/GA1.png</image:loc>
+<image:title><![CDATA[chart showing relative (and absolute) growth of Global Adjustment over time]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://pjcavan.github.io/media\posts\10/IESOresourceadequacy.PNG</image:loc>
+<image:title><![CDATA[IESO prediction of future capacity deficit]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://pjcavan.github.io/hello-and-goodbye-to-hey/</loc>
+<lastmod>2022-02-06T18:21:06-08:00</lastmod>
+<image:image>
+<image:loc>https://pjcavan.github.io/media\posts\9//hey5.jpg</image:loc>
+<image:title><![CDATA[screenshot of Hey email service]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://pjcavan.github.io/ipv6-in-2020/</loc>
+<lastmod>2022-02-06T18:20:53-08:00</lastmod>
+</url>
+<url>
+<loc>https://pjcavan.github.io/lpg-explosion-in-zhejiang-province/</loc>
+<lastmod>2022-02-06T18:21:23-08:00</lastmod>
+</url>
+<url>
+<loc>https://pjcavan.github.io/page/2/</loc>
+</url>
+<url>
+<loc>https://pjcavan.github.io/short-power-in-long-island/</loc>
+<lastmod>2022-02-06T18:19:58-08:00</lastmod>
+<image:image>
+<image:loc>https://pjcavan.github.io/media\posts\11/LI1.png</image:loc>
+<image:title><![CDATA[NYISO load control zones shown on map]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://pjcavan.github.io/media\posts\11/LI2.png</image:loc>
+<image:title><![CDATA[Price action for NYISO zone K on August 11 and 12 2021]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://pjcavan.github.io/snow-on-coast/</loc>
+<lastmod>2022-02-06T18:22:38-08:00</lastmod>
+<image:image>
+<image:loc>https://pjcavan.github.io/media\posts\2/Bug1.jpg</image:loc>
+<image:title><![CDATA[VW bug amongst snow]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://pjcavan.github.io/media\posts\2/Bug2.jpg</image:loc>
+<image:title><![CDATA[VW Bug in snow]]></image:title>
+</image:image>
+</url>
+</urlset>
