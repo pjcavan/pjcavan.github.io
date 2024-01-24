@@ -3,7 +3,7 @@
     <title>Fourth Time Lucky</title>
     <link href="https://cavan.us/feed.xml" rel="self" />
     <link href="https://cavan.us" />
-    <updated>2024-01-22T20:56:02-08:00</updated>
+    <updated>2024-01-23T23:43:56-08:00</updated>
     <author>
         <name>Peter Cavan</name>
     </author>
@@ -17,7 +17,7 @@
         <link href="https://cavan.us/moving-from-onenote-to-bear/"/>
         <id>https://cavan.us/moving-from-onenote-to-bear/</id>
 
-        <updated>2024-01-22T20:50:59-08:00</updated>
+        <updated>2024-01-23T23:43:56-08:00</updated>
             <summary>
                 <![CDATA[
                     <p>I may do a post on why I moved to <a href="https://bear.app">Bear</a> later; for now, a brief comment on the transition.</p>
@@ -31,7 +31,7 @@
 <p>If you've been a long term <a href="https://www.onenote.com">OneNote</a> user and want to jump over to Bear, you'll likely want to bring your old notes with you. That is possible, but can be a pain. </p>
 <p>A brief search will offer all sorts of options: perhaps export as HTML, or Word docs (?), or copy manually (the horror), or <a href="https://github.com/epatters/onenote-export">online services</a> that pull from the Office API, or the Obsidian importer (then export back out to Bear), or a wide universe of Python scripts that scrape OneNote into a Pandoc conversion. </p>
 <p>None of those worked well for me. The closest was <a href="https://help.obsidian.md/import/onenote">Obsidian's first-party OneNote importer</a> - it pulled in the first OneNote workbook I pointed it at, then steadfastly refused any further ones. If you go that route, I recommend having Obsidian pull all of your OneNote content at once, even if that complicates later organization.</p>
-<p>What did work: find an old (v6.5) binary of Evernote<sup id="fnref:1"> <a href="#fn:1">1</a> </sup>. You won't find them on Evernote's site anymore but a brief search of Reddit will bring up links to the exe/dmg. Install it and use (legacy) Evernote's dedicated OneNote importer, then export that to Evernote's export format (ENEX). Have Bear import that ENEX and you're mostly done. </p>
+<p>What did work: find an old (v6.5) binary of Evernote<sup id="fnref:1"> <a href="#fn:1">1</a> </sup>. You won't find them on Evernote's site anymore but a brief search will bring up links. Install it and use Evernote's dedicated OneNote importer, then export that to Evernote's export format (ENEX). Have Bear import that ENEX and you're mostly done. </p>
 <p>It's the least bad method I found by a large margin but there are quirks to be aware of.</p>
 <ul>
 <li>Bear uses a tag- rather than folder-based structure and will not respect the folder structure automatically. My work-around was to import one workbook at a time and apply folder-imitating tags (use the 'untagged' smart tag after each import). </li>
