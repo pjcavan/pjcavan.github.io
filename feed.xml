@@ -1,607 +1,373 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
     <title>Fourth Time Lucky</title>
     <link href="https://cavan.us/feed.xml" rel="self" />
     <link href="https://cavan.us" />
-    <updated>2022-02-06T18:22:56-08:00</updated>
+    <updated>2024-01-22T20:56:02-08:00</updated>
     <author>
-        <name>Peter J. Cavan</name>
+        <name>Peter Cavan</name>
     </author>
     <id>https://cavan.us</id>
 
     <entry>
-        <title>Short Power in Long Island</title>
+        <title>Moving from OneNote to Bear</title>
         <author>
-            <name>Peter J. Cavan</name>
+            <name>Peter Cavan</name>
         </author>
-        <link href="https://cavan.us/short-power-in-long-island/"/>
-        <id>https://cavan.us/short-power-in-long-island/</id>
-            <category term="new york"/>
-            <category term="energy"/>
+        <link href="https://cavan.us/moving-from-onenote-to-bear/"/>
+        <id>https://cavan.us/moving-from-onenote-to-bear/</id>
 
-        <updated>2022-02-06T18:19:58-08:00</updated>
+        <updated>2024-01-22T20:50:59-08:00</updated>
             <summary>
                 <![CDATA[
-                    Friday 13th update: LIPA is telling its customers to cut "all nonessential" usage this afternoon as they struggle with the&hellip;
+                    <p>I may do a post on why I moved to <a href="https://bear.app">Bear</a> later; for now, a brief comment on the transition.</p>
+
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <p class="reader-text-block__paragraph"><em>Friday 13th update: LIPA is telling its customers to cut "all nonessential" usage this afternoon as they struggle with the issues below. It's all hands on deck to keep the lights (and air conditioning) on today. Thursday's story continues below.</em></p>
-<p class="reader-text-block__paragraph">Long Island faces some of the nation's highest wholesale electricity prices. The peninsula/island* has challenges including an older, dirtier generation fleet; more reliance on fuel oil; and frequent congestion (and outages) on the few large transmission lines that connect it to the rest of the state and New England.</p>
-<p class="reader-text-block__paragraph">This week saw a striking combination of those challenges. The wholesale power market, NYISO, is arranged into zones, of which K covers Long Island.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://cavan.us/media/posts/11/LI1.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://cavan.us/media/posts/11/responsive/LI1-xs.png 300w ,https://cavan.us/media/posts/11/responsive/LI1-sm.png 480w ,https://cavan.us/media/posts/11/responsive/LI1-md.png 768w"  alt="NYISO load control zones shown on map" width="957" height="781"></figure>This is the real-time wholesale electricity price (LBMP) for Zone K over Wednesday and Thursday of this week.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://cavan.us/media/posts/11/LI2.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://cavan.us/media/posts/11/responsive/LI2-xs.png 300w ,https://cavan.us/media/posts/11/responsive/LI2-sm.png 480w ,https://cavan.us/media/posts/11/responsive/LI2-md.png 768w"  alt="Price action for NYISO zone K on August 11 and 12 2021" width="1263" height="688"></figure>
-<p class="reader-text-block__paragraph">There are three items worth calling out:</p>
+                <p>I may do a post on why I moved to <a href="https://bear.app">Bear</a> later; for now, a brief comment on the transition.</p>
+
+<p>If you've been a long term <a href="https://www.onenote.com">OneNote</a> user and want to jump over to Bear, you'll likely want to bring your old notes with you. That is possible, but can be a pain. </p>
+<p>A brief search will offer all sorts of options: perhaps export as HTML, or Word docs (?), or copy manually (the horror), or <a href="https://github.com/epatters/onenote-export">online services</a> that pull from the Office API, or the Obsidian importer (then export back out to Bear), or a wide universe of Python scripts that scrape OneNote into a Pandoc conversion. </p>
+<p>None of those worked well for me. The closest was <a href="https://help.obsidian.md/import/onenote">Obsidian's first-party OneNote importer</a> - it pulled in the first OneNote workbook I pointed it at, then steadfastly refused any further ones. If you go that route, I recommend having Obsidian pull all of your OneNote content at once, even if that complicates later organization.</p>
+<p>What did work: find an old (v6.5) binary of Evernote<sup id="fnref:1"> <a href="#fn:1">1</a> </sup>. You won't find them on Evernote's site anymore but a brief search of Reddit will bring up links to the exe/dmg. Install it and use (legacy) Evernote's dedicated OneNote importer, then export that to Evernote's export format (ENEX). Have Bear import that ENEX and you're mostly done. </p>
+<p>It's the least bad method I found by a large margin but there are quirks to be aware of.</p>
+<ul>
+<li>Bear uses a tag- rather than folder-based structure and will not respect the folder structure automatically. My work-around was to import one workbook at a time and apply folder-imitating tags (use the 'untagged' smart tag after each import). </li>
+<li>The rich-text-to-Markdown conversion is... a mixed bag. All text content should be there; conversion of bulleted lists and tables is iffy. </li>
+<li>Each note will have the creation date and time added (within the body) at the top, and "Created with OneNote" at the bottom. </li>
+</ul>
+<div class="footnotes">
 <ol>
-<li> For a single five-minute period at 8am on Wednesday morning, the price was driven to negative $3,855.86 per MWh. This is likely due to multiple constraints in the market model being infeasible following transmission challenges - no selection of available resources would give the model the output it wanted, so pricing moves to a steeply-sloped transmission outage demand curve. At this morning's Operating Committee NYISO were not ready to discuss the issue but I expect them to return with an explanation - so far, they've simply confirmed that the price was not a mistake.</li>
-<li>The zone spent much of Thursday late afternoon and evening over $1,100 per MWh, driven (again) by congestion.</li>
-<li>It's harder to eyeball from the chart, but the average LBMP over those two days was an expensive $183.39 per MWh - for comparison, the average a week previously was $52.33**.</li>
-</ol>
-<p class="reader-text-block__paragraph">The transmission outages were particularly poorly timed - August afternoons - and Long Island is not currently well equipped to function as a true (energy) island. What does this mean for businesses on Long Island?</p>
-<ul>
-<li> Power prices are high and likely to remain so. There is strong demand to install solar&amp;storage systems, driven both by power costs and NYSERDA incentives, which can mitigate those costs.</li>
-<li>Willing businesses will increasingly be asked to help support the grid, in exchange for compensation. NYISO's <a href="https://www.nyiso.com/demand-response">Special Case Resource</a> (SCR) demand response program is playing a vital role to maintain capacity this week, having been dispatched over the past three days and due to be dispatched tomorrow (Friday). That is an unheard of utilization level - the most SCR activations for any New York customers since at least 2013. Customer opportunities will grow at both the NYISO and LIPA level, but many businesses will look to participating via battery storage (whether with solar or standalone) rather than dropping their load day after day.</li>
-<li>LIPA will be pushed to continue cleaning up its aging generation fleet, while maintaining reliability and limiting cost increases. This will likely include accelerating (and adding to) the measures in their <a href="https://www.lipower.org/wp-content/uploads/2021/07/2021-07-01-PSEG-Long-Island-Utility-2.0-2021-Annual-Update.pdf">Utility 2.0 Long Range Plan</a>. That includes opportunities for Long Island businesses, such as offering their energy flexibility into a Non-Wire Solution: LIPA paying for distributed resources such as storage and energy efficiency rather than building or upgrading distribution equipment. </li>
-</ul>
-<p class="reader-text-block__paragraph">If you'd like to see what's going on in NYISO today, start with their <a href="https://www.nyiso.com/real-time-dashboard">real-time dashboard</a>. If you'd like to talk about what energy storage could mean for your business, reach out.</p>
-<p class="reader-text-block__paragraph">*the legal fight over Long Island's status has gone as far as the Supreme Court. Really.</p>
-<p class="reader-text-block__paragraph">**yes, a fuller comparison would be to adjust for weather.</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Expensive Lemonade</title>
-        <author>
-            <name>Peter J. Cavan</name>
-        </author>
-        <link href="https://cavan.us/expensive-lemonade/"/>
-        <id>https://cavan.us/expensive-lemonade/</id>
-            <category term="energy"/>
-            <category term="analogy"/>
-
-        <updated>2022-02-06T18:22:56-08:00</updated>
-            <summary>
-                <![CDATA[
-                     Let’s say you run a lemonade stand where you usually sell a cup for $1. A grandparent pays you&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <figure class="post__image post__image--center"><img loading="lazy"  src="https://cavan.us/media/posts/1/Lemonade.jpeg" sizes="(max-width: 48em) 100vw, 768px" srcset="https://cavan.us/media/posts/1/responsive/Lemonade-xs.jpeg 300w ,https://cavan.us/media/posts/1/responsive/Lemonade-sm.jpeg 480w ,https://cavan.us/media/posts/1/responsive/Lemonade-md.jpeg 768w"  alt="glass of lemonade" width="3375" height="2250"></figure>
-<p>Let’s say you run a lemonade stand where you usually sell a cup for $1.</p>
-<p>A grandparent pays you a year in advance for one lemonade per week, whether or not they turn up, at 80c each. You get a check for $41.60 - you’re happy.</p>
-<p>There’s a drought and you’re the only drinks seller in the area. You sell for $5/cup that week. Some people grumble that it’s expensive but buy it anyway. When your grandparent turns up, they’re still getting their cup for the 80c they already paid.</p>
-<p>After the drought ends, your HOA says that selling at $5 was unfair so you must reprice to $2 - you have to give $3 back to everybody you sold at $5 to. If someone knew you sold 100 cups that week, they could say $300 would be returned to customers. Imagine the headlines in the neighborhood newspaper - “lemonade stand must fix $300 pricing error!” How embarrassing.</p>
-<p>But, $300 won’t be returned. Your grandparent bought at 80c - there’s nothing to return to them. If you had lots of those deals, the total returned might be far, far less than $300.</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Brexit: Incompatible Plugs</title>
-        <author>
-            <name>Peter J. Cavan</name>
-        </author>
-        <link href="https://cavan.us/brexit-incompatible-plugs/"/>
-        <id>https://cavan.us/brexit-incompatible-plugs/</id>
-            <category term="comic"/>
-
-        <updated>2022-02-06T18:22:13-08:00</updated>
-            <summary>
-                <![CDATA[
-                     I’m a sucker for KAL comics, and European political commentary, and electric industry references. This comic works for me. 
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <figure class="post__image post__image--center"><img loading="lazy"  src="https://cavan.us/media/posts/3/BrexitPlugs.jpg" sizes="(max-width: 48em) 100vw, 768px" srcset="https://cavan.us/media/posts/3/responsive/BrexitPlugs-xs.jpg 300w ,https://cavan.us/media/posts/3/responsive/BrexitPlugs-sm.jpg 480w ,https://cavan.us/media/posts/3/responsive/BrexitPlugs-md.jpg 768w"  alt="KAL comic from the Economist" width="1024" height="706"></figure>
-<p>I’m a sucker for KAL comics, and European political commentary, and electric industry references. This comic works for me. </p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Snow on Coast</title>
-        <author>
-            <name>Peter J. Cavan</name>
-        </author>
-        <link href="https://cavan.us/snow-on-coast/"/>
-        <id>https://cavan.us/snow-on-coast/</id>
-            <category term="winter"/>
-
-        <updated>2022-02-06T18:22:38-08:00</updated>
-            <summary>
-                <![CDATA[
-                     My brother-in-law’s Bug, parked on the North coast of the Olympic Peninsula in Washington state on Thursday 7 and&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <figure class="post__image post__image--center"><img loading="lazy"  src="https://cavan.us/media/posts/2/Bug1.jpg" sizes="(max-width: 48em) 100vw, 768px" srcset="https://cavan.us/media/posts/2/responsive/Bug1-xs.jpg 300w ,https://cavan.us/media/posts/2/responsive/Bug1-sm.jpg 480w ,https://cavan.us/media/posts/2/responsive/Bug1-md.jpg 768w"  alt="VW bug amongst snow" width="2048" height="1152"></figure>
-<p>My brother-in-law’s Bug, parked on the North coast of the Olympic Peninsula in Washington state on Thursday 7 and Friday 8th.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://cavan.us/media/posts/2/Bug2.jpg" sizes="(max-width: 48em) 100vw, 768px" srcset="https://cavan.us/media/posts/2/responsive/Bug2-xs.jpg 300w ,https://cavan.us/media/posts/2/responsive/Bug2-sm.jpg 480w ,https://cavan.us/media/posts/2/responsive/Bug2-md.jpg 768w"  alt="VW Bug in snow" width="2048" height="1152"></figure>
-<p>Yes, it snows in WA. No, most drivers can’t handle it.</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Global Optimization Frozen in Amber</title>
-        <author>
-            <name>Peter J. Cavan</name>
-        </author>
-        <link href="https://cavan.us/global-optimization-frozen-in-amber/"/>
-        <id>https://cavan.us/global-optimization-frozen-in-amber/</id>
-            <category term="ontario"/>
-            <category term="energy"/>
-
-        <updated>2022-02-06T18:20:12-08:00</updated>
-            <summary>
-                <![CDATA[
-                    Ontario is fixing what businesses pay for a coincident peak demand charge - Global Adjustment (GA) - for two years.
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <h5 id="ontario-is-fixing-what-businesses-pay-for-a-coincident-peak-demand-charge---global-adjustment-ga---for-two-years---more--">Ontario is fixing what businesses pay for a coincident peak demand charge - Global Adjustment (GA) - for two years.</h5>
-<p>GA is the towering behemoth of Ontario’s electricity system. It transfers C$1.3 billion from energy users to generators every month, and has grown over the past decade to capture over 80% of many customers’ bills. In organized US markets the energy component is usually the majority of the cost but it’s an increasingly minor portion in Ontario (blue bars below).</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://cavan.us/media/posts/10/GA1.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://cavan.us/media/posts/10/responsive/GA1-xs.png 300w ,https://cavan.us/media/posts/10/responsive/GA1-sm.png 480w ,https://cavan.us/media/posts/10/responsive/GA1-md.png 768w"  alt="chart showing relative (and absolute) growth of Global Adjustment over time" width="590" height="442"></figure>
-<p>Larger business customers were previously able to manage how much of the GA pie they’re responsible for through the <a href="http://www.ieso.ca/-/media/files/ieso/document-library/global-adjustment/ici-backgrounder.pdf">Industrial Conservation Initiative (ICI)</a> - by reducing the power they used during the five hours of the year when the system was most stressed, they would pay lower GA costs in future years. This optimization opportunity was worth C$450,000 per MW-year[^2] for businesses who could fully reduce their demand during peak hours, such as shifting to a generator or energy storage. That is a lot - most demand response opportunities in North America are worth $30,000 to $75,000 per MW-year.</p>
-<h5 id="instead-the-ga-contribution-will-be-fixed-existing-businesses-will-continue-paying-ga-costs-in-202021-and-202122-based-on-their-peak-contribution-in-201920">Instead, the GA contribution will be fixed. Existing businesses will continue paying GA costs in 2020/21 and 2021/22 based on their peak contribution in 2019/20.</h5>
-<p>The <a href="https://news.ontario.ca/mndmf/en/2020/06/ontario-provides-stable-electricity-pricing-for-industrial-and-commercial-companies">government’s rationale</a> is that this will encourage businesses to focus on “<em>running at full tilt</em>“ as the province recovers from covid-19, particularly given the oversupply of generating capacity, and provides price stability. Businesses can greatly increase (or decrease) their peak usage over the next two years with no impact on their GA costs (and therefore minimal change to their overall bill).</p>
-<p>The impact will vary for each business. For those who couldn’t manage their peak demand previously, this change allows them to use more energy without worrying about higher GA costs. I have two primary concerns, at the business and system level:</p>
-<ol>
-<li>Removing the optimization opportunity will directly hurt some of the Ontario businesses who used demand flexibility services - such as installing energy storage - in the expectation that it would reduce their future GA costs. It won’t, at least for two years. The change will also damage the businesses built in Ontario to deliver those services, from peak predictions to installing generators and batteries.</li>
-</ol>
-<ol start="2">
-<li>This could set the province up for difficulties later in the decade. Ontario currently has more generating capacity than it needs, both because of an unusual market design and covid-19-related demand destruction. However, it is still widely expected that the province faces a capacity shortfall - having less electricity supply than needed to safely and reliably meet demand - in the next few years. The graph below is a forecast by Ontario’s system operator, IESO, from January.</li>
-</ol>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://cavan.us/media/posts/10/IESOresourceadequacy.PNG" sizes="(max-width: 48em) 100vw, 768px" srcset="https://cavan.us/media/posts/10/responsive/IESOresourceadequacy-xs.PNG 300w ,https://cavan.us/media/posts/10/responsive/IESOresourceadequacy-sm.PNG 480w ,https://cavan.us/media/posts/10/responsive/IESOresourceadequacy-md.PNG 768w"  alt="IESO prediction of future capacity deficit" width="1404" height="504"></figure>
-<p>The numbers differ by the predictions used (when key nuclear plants are refurbished, effectiveness of energy efficiency programs, etc) but the direction is the same - on the current path, Ontario is likely to face a capacity shortfall by 2027.</p>
-<p>That short fall can be solved by increasing supply or reducing demand, or (most likely) some combination thereof. The ICI was delivering ~1600MW of demand reduction during the hottest hours of 2018, which businesses will not be incentivized to deliver for the next two summers.</p>
-<p>So, the province may be turning off a major demand flexibility program just before the system would most benefit from that flexibility. Hopefully Ontario’s businesses will be offered new opportunities to help with the grid with their energy management.</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>IPv6 in 2020</title>
-        <author>
-            <name>Peter J. Cavan</name>
-        </author>
-        <link href="https://cavan.us/ipv6-in-2020/"/>
-        <id>https://cavan.us/ipv6-in-2020/</id>
-            <category term="tech"/>
-            <category term="chart"/>
-
-        <updated>2022-02-06T18:20:53-08:00</updated>
-            <summary>
-                <![CDATA[
-                     Briefly looked into “how is IPv6 deployment going”. Two notes: the data is very noisy, in large part due&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                
-    <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://cavan.us/media/posts/8/apnic.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://cavan.us/media/posts/8/responsive/apnic-xs.png 300w ,https://cavan.us/media/posts/8/responsive/apnic-sm.png 480w ,https://cavan.us/media/posts/8/responsive/apnic-md.png 768w"  height="679" width="1483" alt="" />
-      
-    </figure>
-
-  <p>
-    Briefly looked into “how is IPv6 deployment going”. Two notes:
-  </p>
-
-  <ul>
-    <li>the data is very noisy, in large part due to different definitions of “deployed” - capability anywhere on an ISP’s network, capability to each end user, actual traffic from those users, etc.&nbsp;</li><li>the absolute numbers are noisy, but most of the trends seem to agree that deployment grew rapidly 2013-17ish (varies by country) but is now growing slowly, or even plateaued. See data atop this page for the US from APNIC (<a href="https://stats.labs.apnic.net/ipv6/US">source</a>).</li>
-  </ul>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>LPG Explosion in Zhejiang Province </title>
-        <author>
-            <name>Peter J. Cavan</name>
-        </author>
-        <link href="https://cavan.us/lpg-explosion-in-zhejiang-province/"/>
-        <id>https://cavan.us/lpg-explosion-in-zhejiang-province/</id>
-            <category term="energy"/>
-            <category term="china"/>
-
-        <updated>2022-02-06T18:21:23-08:00</updated>
-            <summary>
-                <![CDATA[
-                     This is what happens when an LPG truck crashes into a factory. As of today (Sunday 14th), local media&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                
-    <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://cavan.us/media/posts/7/lpg.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://cavan.us/media/posts/7/responsive/lpg-xs.png 300w ,https://cavan.us/media/posts/7/responsive/lpg-sm.png 480w ,https://cavan.us/media/posts/7/responsive/lpg-md.png 768w"  height="818" width="1908" alt="" />
-      
-    </figure>
-
-  <p>
-    This is what happens when an LPG truck crashes into a factory. As of today (Sunday 14th), local media is reporting 19 deaths and 172 injuries.
-  </p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Accidental Tech Podcast - Notes</title>
-        <author>
-            <name>Peter J. Cavan</name>
-        </author>
-        <link href="https://cavan.us/accidental-tech-podcast-notes/"/>
-        <id>https://cavan.us/accidental-tech-podcast-notes/</id>
-            <category term="tech"/>
-            <category term="podcast"/>
-
-        <updated>2022-02-06T18:21:41-08:00</updated>
-            <summary>
-                <![CDATA[
-                    I’ve been working through the back catalog of the Accidental Tech Podcast, a long-running technology show by Marco Arment, Casey&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p>I’ve been working through the back catalog of the Accidental Tech Podcast, a long-running technology show by Marco Arment, Casey Liss and John Siracusa. When I come across something notable I’ll add it below. <!--more-->
-<br /></p>
-<hr>
-<br />
-Two clarifications: 
-
-<ol>
-<li> “What makes the list” is simply what stands out to me.  I’m deeply interested in the craft of podcasts but am not a software engineer, so do not (for example) track the first appearance of each software language. </li>
-<li> Notes in italics paraphrase of what a host said. I am not providing a word-for-word transcription but believe each entry to be a fair representation - if you disagree, contact <a href="https://www.twitter.com/pjcavan">@PJCavan</a>. </li>
-</ol>
-<h3 id="1-iphone-plus">1: iPhone Plus</h3>
-<ul>
-<li>  Already good audio quality (but it gets even better). No adverts yet. </li>
-<li>  First Apple device mentioned: Apple TV</li>
-<li>  Marco: <em>the iPhone has to go bigger to be competitive</em></li>
-<li>  John makes first height joke about Marco</li>
-</ul>
-<h3 id="2-the-7th-guest">2: The 7th Guest</h3>
-<ul>
-<li>  First game console mentioned: PS4</li>
-<li>  Marco: <em>want to build a game that’s simply the train network portion of Transport Tycoon, but simpler and for iOS</em> (did he verbally describe Mini Metro?)</li>
-<li>  Marco: <em>good chance the PS4/Xbox One generation will be the last game consoles</em></li>
-</ul>
-<h3 id="3-conditions-led-to-freecell">3: Conditions Led To Freecell</h3>
-<ul>
-<li>  Marco: <em>probably won’t buy another D-SLR</em></li>
-<li>  John: <em>Apple letting you pick another keyboard is not going to happen</em></li>
-</ul>
-<h3 id="4-the-bridges">4: The Bridges</h3>
-<ul>
-<li>  First mention of Mac Pro</li>
-<li>  John: <em>Apple will make its own language</em> (first implicit Swift reference?)</li>
-</ul>
-<h3 id="5-negativity-skepticism-and-doubt">5: Negativity, Skepticism and Doubt</h3>
-<ul>
-<li>  First Marco reference of his contemporary podcast setup (Downcast)</li>
-</ul>
-<h3 id="6-live-like-other-people">6: Live Like Other People</h3>
-<ul>
-<li>  John: <em>I should buy another plasma. I don’t want to be forced to buy an LCD in 5-7 years</em></li>
-<li>  Marco: <em>if Apple released a Retina display with the same construction as the new iMac screen, I’d buy it in a heartbeat</em></li>
-<li>  First advert: Squarespace</li>
-</ul>
-<h3 id="7-the-forecast-for-icloud">7: The Forecast for iCloud</h3>
-<ul>
-<li>  Marco: <em>iCloud as it exists will not be fixed. Will need MobileMe-like overhaul of user data model.</em></li>
-<li>  First appearance of outro song, and bleeps and bloops version.</li>
-</ul>
-<h3 id="8-hold-me">8: Hold Me!</h3>
-<ul>
-<li>  Marco: <em>Apple moving to Google’s browser rendering engine (Blink)? Yeah right.</em></li>
-<li>  Second advertiser: Igloo</li>
-</ul>
-<h3 id="9-fish-bicycle-scenario">9: Fish Bicycle Scenario</h3>
-<ul>
-<li>  First iTunes review request</li>
-<li>  Marco: <em>two years I would have believed Office will come to iPad, but now Microsoft have a tablet I don’t.</em></li>
-</ul>
-<h3 id="10-gradual-ramp-up-to-nothing">10: Gradual Ramp Up To Nothing</h3>
-<ul>
-<li>  Marco sold his Apple stock at $460</li>
-</ul>
-<h3 id="11-a-particularly-exuberant-adolescence">11: A Particularly Exuberant Adolescence</h3>
-<ul>
-<li>  First mention of Marco’s “next app”, in context of the Instapaper sale. App not yet described.</li>
-</ul>
-<h3 id="14-pouring-champagne-onto-rap-stars">14: Pouring Champagne Onto Rap Stars</h3>
-<ul>
-<li>  Marco: <em>the idea of maintaining a second house? I hate all that crap.</em></li>
-</ul>
-<h3 id="15-cat-modifier-cat">15: Cat, Modifier Cat</h3>
-<ul>
-<li>  Marco: <em>I know what my next app will be. If you see what sessions I go to at WWDC you can figure it out.</em></li>
-</ul>
-<h3 id="16-john-we-dont-play-games">16: John, We Don’t Play Games</h3>
-<ul>
-<li>  First rock intro - who is Casey?</li>
-</ul>
-<h3 id="17-cant-innovate-anymore">17: Can’t Innovate Anymore</h3>
-<ul>
-<li>  First pre-roll advert: Backblaze</li>
-</ul>
-<h3 id="19-designed-by-app-in-cal">19: Designed by App in Cal</h3>
-<ul>
-<li>  Marco: <em>I’ll use node.js when I start a project in 5 years</em> (he did, briefly)</li>
-</ul>
-<h3 id="21-the-transitive-property-of-nerdiness">21: The Transitive Property of Nerdiness</h3>
-<ul>
-<li>  Marco: <em>I’m guessing Feedly will explode fast then burn out</em></li>
-</ul>
-<h3 id="25-thrustmaster-joystick">25: Thrustmaster Joystick</h3>
-<ul>
-<li>  First mention of Marco’s drift removal app (Audio Align/Sidetrack; birth of Forecast?)</li>
-</ul>
-<h3 id="26-three-phones-ago">26: Three Phones Ago</h3>
-<ul>
-<li>  First non-host appearance: Tiff Arment</li>
-<li>  John: <em>Apple should offer equivalent GBs of owned devices as iCloud space</em> (still a reasonable request in 2020)</li>
-</ul>
-<h3 id="29-computerized-garden-gnome">29: Computerized Garden Gnome</h3>
-<ul>
-<li>  John and Casey very suspicious of how reliable a “fingerprint scanner” might be. May be a toy that’s interesting for 2-3 days then ignored.</li>
-</ul>
-<h3 id="31-swimming-in-16-gb-gold">31: Swimming In 16 GB Gold</h3>
-<ul>
-<li>  First reference to Apple using ARM CPU in a laptop</li>
-</ul>
-<h3 id="32-it-doesnt-bother-me">32: It Doesn’t Bother Me</h3>
-<ul>
-<li>  Overcast announced in Portland then referenced on the podcast</li>
-</ul>
-<h3 id="33-a-30-minute-skip-button">33: A 30-Minute Skip Button</h3>
-<ul>
-<li>  John: <em>people (other than me) should wait for the second generation of this 2013 Mac Pro.</em></li>
-<li>  Marco: <em>I want to be able to tell publishers how far listeners got through their episodes.</em></li>
-</ul>
-<h3 id="34-made-the-dot-smaller">34: Made The Dot Smaller</h3>
-<ul>
-<li>  Extended John rant on Apple’s server-side expertise (still largely applicable in 2020)</li>
-</ul>
-<h3 id="47-better-pixels">47: Better Pixels</h3>
-<ul>
-<li>  LAN gaming discussion, v1</li>
-</ul>
-<h3 id="52-necessary-but-not-sufficient">52: Necessary But Not Sufficient</h3>
-<ul>
-<li>  Marco: <em>we were invited to Patreon but I don’t feel right about putting ATP on there. We make good money through ads.</em></li>
-<li>  John: <em>Patreon is fine if it’s the only way you make money. If you’re ad supported, it almost feels like you’re just trying to get a little bit extra by soaking your 200 best fans. If you’re going to soak your 200 best fans for money, I’d much rather see them get something out of it like a t-shirt because then they’re getting something which expresses their superfandom. I’d rather sell someone swag than do Patreon.</em></li>
-<li>  Casey: <em>I agree on all counts.</em></li>
-</ul>
-<h3 id="67-tim-said-man">67: Tim Said, Man</h3>
-<ul>
-<li>  John: <em>people would never want to wear a device tight enough to measure pulse.</em></li>
-<li>  Marco: <em>hidden is good. Wearing electronics is not cool.</em> </li>
-</ul>
-<h3 id="73-notifications-duck">73: Notifications Duck</h3>
-<ul>
-<li>  Casey: <em>a 5.5” phone? I can’t see that in my life; a damn tablet.</em></li>
-</ul>
-<h3 id="99-pop-up-headlights">99: Pop-Up Headlights</h3>
-<ul>
-<li>  Extended “ARM MacBook” discussion, in context of MacBook 12” rumors</li>
-</ul>
-<h3 id="102-marco-is-not-a-platform">102: Marco is Not a Platform</h3>
-<ul>
-<li>  Marco: <em>Is Ireland the UK? I think the bottom half is?</em></li>
-<li>  Marco: <em>NSConference is in… Lie-Chester?</em></li>
-</ul>
-<h3 id="125-a-better-future-for-everybody">125: A Better Future for Everybody</h3>
-<ul>
-<li>  First episode with chapters. Hooray!</li>
-</ul>
-<h3 id="135-uncomfortable-in-my-pants">135: Uncomfortable in My Pants</h3>
-<ul>
-<li>  Marco releases his ad-blocker, Peace.</li>
-</ul>
-<h3 id="136-war-and-peace">136: War and Peace</h3>
-<ul>
-<li>  Marco pulls and refunds Peace.</li>
-</ul>
-<h3 id="140-harpooned-a-turle">140: Harpooned a Turle</h3>
-<ul>
-<li>  John: <em>I will buy a Mac Pro before I create a Perl 6 project.</em></li>
-</ul>
-<h3 id="145-lasers-and-pew-pew-and-space-aliens">145: Lasers and Pew-Pew and Space Aliens</h3>
-<ul>
-<li>  John: <em>The future of tailgating will be electric pickups.</em></li>
-</ul>
-<h3 id="146-control--money--smallness">146: Control + Money + Smallness</h3>
-<ul>
-<li>  First discussion of “no headphone jack in iPhone 7” rumor. Hosts skeptical Apple would do this, but Marco accurately predicts the Lightning adapter.</li>
-<li>  Marco: <em>I don’t think Apple would include a passive adapter in the box. Up sell!</em></li>
-<li>  Marco: <em>I’m guessing Apple will keep Lightning longer than USB-C would be the standard it would move to.</em>  </li>
-</ul>
-<h3 id="171-wwdc-is-not-santa-claus">171: WWDC Is Not Santa Claus</h3>
-<ul>
-<li>  Casey: <em>Should I go Android?!</em></li>
-</ul>
-<h3 id="205-people-dont-use-the-weird-parts">205: People Don’t Use the Weird Parts</h3>
-<ul>
-<li>  Chris Lattner interview</li>
-</ul>
-<h3 id="214-christmas-phone">214: Christmas Phone</h3>
-<ul>
-<li>  John and Marco have lost all hope that Apple will ever make a Mac Pro. Casey unsure. </li>
-</ul>
-<h3 id="232-youve-exceeded-some-limit">232: You’ve Exceeded Some Limit</h3>
-<ul>
-<li>  Marco describes the bug that was causing Overcast to crash and take Springboard down with it. This bug drove me utterly insane, including seriously considering (Casey voice) “should I go Android?!”</li>
-</ul>
-<h3 id="234-everyone-has-asterisks">234: Everyone Has Asterisks</h3>
-<ul>
-<li>  Marco describes his (not implemented) exploration of providing a donation platform for podcasters within Overcast. Podcasters have found their own ways to make money and don’t want a middleman.</li>
-</ul>
-<h3 id="257-smell-the-wind">257: Smell the Wind</h3>
-<ul>
-<li>  First mention of John’s cheese grater collection (no, not a Mac Pro reference)</li>
-</ul>
-<h3 id="269-cooled-by-jellyfish">269: Cooled by Jellyfish</h3>
-<ul>
-<li>  First Molekule ad. Makes claims since found false by the NAD (advertising standards body).</li>
-</ul>
-<h3 id="285-do-not-drill-holes-in-this-house">285: Do Not Drill Holes in This House</h3>
-<ul>
-<li>  Marco predicts the first ARM Mac in two years (2020), with the transition taking three years.</li>
-<li>  Casey: around five years.</li>
-<li>  John doesn’t put a stake in the ground - discusses possibilities of “2020” or “5-10+”.</li>
-</ul>
-<h3 id="291-johns-special-day">291: John’s Special Day</h3>
-<ul>
-<li>  John: in the next five years (from September 2018), Apple will sell a phone smaller than the iPhone 10.</li>
-<li>  Marco: doesn’t agree - $1 bet agreed.</li>
-</ul>
-<h3 id="292-start-a-rotate-chicken-nuggets-timer">292: Start a Rotate Chicken Nuggets Timer</h3>
-<ul>
-<li>  Marco added offline Apple Watch playback after WatchOS 3 because someone at Apple asked him to do so. The functionality was then broken by WatchOS 4. Added back in Overcast 5 following WatchOS 5.</li>
-</ul>
-
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Hello and Goodbye to Hey</title>
-        <author>
-            <name>Peter J. Cavan</name>
-        </author>
-        <link href="https://cavan.us/hello-and-goodbye-to-hey/"/>
-        <id>https://cavan.us/hello-and-goodbye-to-hey/</id>
-            <category term="tech"/>
-            <category term="email"/>
-            <category term="basecamp"/>
-
-        <updated>2022-02-06T18:21:06-08:00</updated>
-            <summary>
-                <![CDATA[
-                    I was invited to Basecamp’s Hey email beta on June 16, and finally got around to playing with it this week. It’s&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p>I was invited to Basecamp’s <a href="https://hey.com/">Hey</a> email beta on June 16, and finally got around to playing with it this week. It’s a fascinating effort which I applaud, but doesn’t deliver enough value for me to pay the $99/year asking price.</p>
-<p>Before diving into Hey, it’s worth explaining my current email workflow.</p>
-<ol>
-<li>
-<p>Let’s be honest - most email is cruft. Beyond old-fashioned spam, the vast majority of email is low priority: newsletters, coupons, status updates, etc. Reading it is neither urgent nor important. All such emails I receive are filtered into an “Updates” folder which does not create any notifications. I’ll get to it when I get to it.</p>
-</li>
-<li>
-<p>Important email, like direct notes from family members, enter a “Primary” folder which creates notifications.</p>
+<li id="fn:1" class="footnote">
+<p>Try <a href="https://cdn1.evernote.com/mac-smd/public/Evernote_RELEASE_6.5_453172.zip">this for Mac</a> and <a href="https://filehippo.com/download_evernote/6.5.4.4720.0/">this for Windows</a>. Working links as of January 22, 2024.<a href="#fnref:1" title="return to article"> ↩</a></p>
+<p> </p>
 </li>
 </ol>
-<p>That’s it. All email is divided into “Updates” and “Primary” - a river of cruft to be viewed whenever I can, and high priority emails to be read and dealt with.</p>
-<p>This is consistent with Hey’s perspective on email, as described by David Heinemeier Hansson on a recent <a href="https://overcast.fm/+JptgYvXNs">Basecamp podcast</a>: treat most email as a “river to be dipped into”, rather than fretting about the “Inbox Zero” goal of acting upon every email that arrives. This philosophy has been distilled into Hey application itself, which very much follows the Ruby on Rails approach of <a href="https://rubyonrails.org/doctrine/">convention over configuration</a> - it’s opinionated on how email should be handled.</p>
-<h2>The Hey Client</h2>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://cavan.us/media/posts/9//hey5.jpg" sizes="(max-width: 48em) 100vw, 768px" srcset="https://cavan.us/media/posts/9//responsive/hey5-xs.jpg 300w ,https://cavan.us/media/posts/9//responsive/hey5-sm.jpg 480w ,https://cavan.us/media/posts/9//responsive/hey5-md.jpg 768w"  alt="screenshot of Hey email service" width="753" height="641"></figure>
-<p>The iOS client is neatly designed and has well-written copy. The introductory emails are sensibly put together. Much of Hey’s secret sauce is requiring use of optional structures from other email services. To compare to the obvious competitor - Gmail:</p>
-<table style="border-collapse: collapse; width: 100%;" border="1">
-<tbody>
-<tr>
-<td style="width: 50%;"><strong>Hey</strong></td>
-<td style="width: 50%;"><strong>Gmail</strong></td>
-</tr>
-<tr>
-<td style="width: 50%;">Imbox</td>
-<td style="width: 50%;">Inbox/Priority Inbox</td>
-</tr>
-<tr>
-<td style="width: 50%;">The Feed</td>
-<td style="width: 50%;">“Promotions” category</td>
-</tr>
-<tr>
-<td style="width: 50%;">Paper Trail</td>
-<td style="width: 50%;">“Updates” category</td>
-</tr>
-<tr>
-<td style="width: 50%;">Set Aside</td>
-<td style="width: 50%;">Archive</td>
-</tr>
-<tr>
-<td style="width: 50%;">Reply Later</td>
-<td style="width: 50%;">Reminders</td>
-</tr>
-</tbody>
-</table>
-<h2>Recommendation</h2>
-<p>If you struggle to create and maintain an email workflow, so would appreciate a guiding hand, Hey is worth trying. I do not so the $99/year asking price is too hard to justify.</p>
-<p>The Venn diagram of “has enough email to overwhelm,” “lacks strong workflow today” and “would pay &gt;$99/year to fix” is much larger for work than personal email, which makes Basecamp’s decision to initially focus on personal email (no custom domain support) a little strange. I understand there is a business version (referred to as “Hey Us” internally) in the works.</p>
+</div>
             ]]>
         </content>
     </entry>
     <entry>
-        <title>99 Beers at the Great American Beer Festival 2019</title>
+        <title>The (UK) Conservative Five Families</title>
         <author>
-            <name>Peter J. Cavan</name>
+            <name>Peter Cavan</name>
         </author>
-        <link href="https://cavan.us/99-beers-at-the-great-american-beer-festival-2019-2/"/>
-        <id>https://cavan.us/99-beers-at-the-great-american-beer-festival-2019-2/</id>
-            <category term="colorado"/>
-            <category term="beer"/>
+        <link href="https://cavan.us/the-uk-conservative-five-families/"/>
+        <id>https://cavan.us/the-uk-conservative-five-families/</id>
 
-        <updated>2022-02-06T18:21:59-08:00</updated>
+        <updated>2024-01-20T14:59:40-08:00</updated>
             <summary>
                 <![CDATA[
-                     Ashiyah and I visited this year’s Great American Beer Festival in Denver. It brings over 800 breweries and 4,000&hellip;
+                    ERG: Brexit, brought down May. Common Sense: ERG but go hard on culture war. Conservative Growth: Truss. Libertarian, low taxes. New Conservatives: socially conservative, moderate&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                
-    <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://cavan.us/media/posts/5/GABFbeers.jpg" sizes="(max-width: 48em) 100vw, 768px" srcset="https://cavan.us/media/posts/5/responsive/GABFbeers-xs.jpg 300w ,https://cavan.us/media/posts/5/responsive/GABFbeers-sm.jpg 480w ,https://cavan.us/media/posts/5/responsive/GABFbeers-md.jpg 768w"  height="1800" width="2700" alt="" />
-      
-    </figure>
+                <ul>
+<li>ERG: Brexit, brought down May.</li>
+<li>Common Sense: ERG but go hard on culture war.</li>
+<li>Conservative Growth: Truss. Libertarian, low taxes.</li>
+<li>New Conservatives: socially conservative, moderate on spending (eg more for NHS). Spend more but only for Britons.</li>
+<li>Northern Research Group: … what happened to leveling up?</li>
+</ul>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>How To Talk So Kids Will Listen, Adele Faber</title>
+        <author>
+            <name>Peter Cavan</name>
+        </author>
+        <link href="https://cavan.us/how-to-talk-so-kids-will-listen-adele-faber/"/>
+        <id>https://cavan.us/how-to-talk-so-kids-will-listen-adele-faber/</id>
+            <category term="booknotes"/>
 
-  <p>
-    Ashiyah and I visited this year’s <a href="https://www.greatamericanbeerfestival.com/">Great American Beer Festival</a> in Denver. It brings over 800 breweries and 4,000 beers to the US’s largest celebration of craft beer.
-<br>
-<br>Sadly trying all 4,000 was not on the cards, but over two three hour sessions my trusty glass conveyed 99 samples for my tasting pleasure.
-  </p>
+        <updated>2024-01-20T15:01:10-08:00</updated>
+            <summary>
+                <![CDATA[
+                    Handling their emotions Accept feelings Lists, drawings Fantasy No questions or buts Compliance Make it a game, voices Give choices about how, not what One&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <ul>
+<li>Handling their emotions
+<ul>
+<li>Accept feelings</li>
+<li>Lists, drawings</li>
+<li>Fantasy</li>
+<li>No questions or buts</li>
+</ul>
+</li>
+<li>Compliance
+<ul>
+<li>Make it a game, voices </li>
+<li>Give choices about how, not what</li>
+<li>One word reminders of chores</li>
+<li>Describe how I feel</li>
+</ul>
+</li>
+</ul>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Dare to Lead, Brené Brown</title>
+        <author>
+            <name>Peter Cavan</name>
+        </author>
+        <link href="https://cavan.us/dare-to-lead-brene-brown/"/>
+        <id>https://cavan.us/dare-to-lead-brene-brown/</id>
+            <category term="booknotes"/>
 
-    <h2 id="day-one-thursday">
-      Day One (Thursday)
-    </h2>
+        <updated>2024-01-20T14:57:43-08:00</updated>
+            <summary>
+                <![CDATA[
+                    Public speaking: House lights at 50% Imagine audience are toddlers Studying leadership is way easier than leading A leader: anyone who takes responsibility for finding&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <ul>
+<li>Public speaking:
+<ul>
+<li>House lights at 50%</li>
+<li>Imagine audience are toddlers</li>
+</ul>
+</li>
+<li>Studying leadership is way easier than leading</li>
+<li>A leader: anyone who takes responsibility  for finding the potential in people and processes, and has the courage to develop that potential.</li>
+<li>Things to change
+<ul>
+<li>We avoid tough conversations</li>
+<li>We manage bad behavior rather than dealing with root emotions</li>
+<li>Diminishing trust</li>
+<li>Not taking smart risks</li>
+<li>Defined by setbacks</li>
+<li>Too much shame, not enough learning</li>
+<li>Hiding opinions to avoid bad response</li>
+<li>Rushing too quickly to solution</li>
+<li>Values are gauzy</li>
+<li>Fear keeping people from learning</li>
+</ul>
+</li>
+<li>Courage
+<ul>
+<li>Rumble with vulnerability</li>
+<li>Living into values</li>
+<li>Braving trust</li>
+<li>Learning to rise</li>
+</ul>
+</li>
+<li>Get clear who to take feedback from. Ignore cruelty from the cheap seats so you don’t develop a very thick sin.
+<ul>
+<li>Choose people as a “square squad” to take feedback from</li>
+</ul>
+</li>
+<li>Clear is kind</li>
+<li>Deal with fears and feelings, or deal with so much more bad behavior</li>
+<li>Daring to lead vs armored leadership
+<ul>
+<li>A knower vs a learner</li>
+</ul>
+</li>
+<li>Cynicism and sarcasm are the worst
+<ul>
+<li>Assumption that sarcasm always (or often) attacking other</li>
+</ul>
+</li>
+<li>Shame is the fear of disconnection, and has been considered the base emotion</li>
+<li>Ready to give feedback when you can own part of it and connect it to their strengths</li>
+<li>Emotions
+<ul>
+<li>First reaction is a shitty first draft</li>
+<li>Share your SFD of situations with people</li>
+</ul>
+</li>
+</ul>
+<p> </p>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>A brief foray into Linux (2023)</title>
+        <author>
+            <name>Peter Cavan</name>
+        </author>
+        <link href="https://cavan.us/a-brief-foray-into-linux/"/>
+        <id>https://cavan.us/a-brief-foray-into-linux/</id>
 
-  <p>
-    My two favorites of the night were two imperial stouts from the Chicago area - <a href="https://www.moodytongue.com">Moody Tongue</a>’s <a href="https://www.beeradvocate.com/beer/profile/35410/311870/">Gingerbread</a> and <a href="http://www.flossmoorstation.com/">Flossmoor Station</a>’s <a href="https://www.beeradvocate.com/beer/profile/612/167508/">Shadow of the Moon</a>. Perhaps I have a ‘type’ after all.
-<br>
-<br>Strangest of the night goes to Reality Checker (sour series) from Florida’s <a href="http://crookedthumbbrew.com/">Crooked Thumb</a>, which was described as a Berliner Weisse but tasted precisely like an orange creamsicle.
-  </p>
+        <updated>2024-01-22T20:53:49-08:00</updated>
+            <summary>
+                <![CDATA[
+                    <p>Every few years I get the bug to try out Linux - is this the year of the Linux desktop? My very brief notes from the 2023 version are below. </p>
 
-    <h2 id="day-two-saturday-afternoon">
-      Day Two (Saturday Afternoon)
-    </h2>
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Every few years I get the bug to try out Linux - is this the year of the Linux desktop? My very brief notes from the 2023 version are below. </p>
 
-  <p>
-    Top beer of the day goes to the <a href="https://www.beeradvocate.com/beer/profile/30824/318218/">Mexican Stout</a> by <a href="https://shipbottombrewery.com/">Ship Bottom Brewery</a> out of Beach Haven NJ. A gorgeous stout brewed with coffee, chocolates, ancho chipotle peppers, cinnamon, lactose and vanilla beans.
-<br>
-<br>Runner up goes to <a href="https://www.beeradvocate.com/beer/profile/10607/427858/">Master Blend: Orange Cream</a> from Brooklyn’s <a href="https://sixpoint.com">Sixpoint Brewery</a>. The orange peel adds to the imperial stout base without overwhelming it.
-  </p>
+<ul>
+<li><a href="https://ghostbsd.org">GhostBSD:</a> buggy.</li>
+<li><a href="https://www.freebsd.org">FreeBSD</a> full version: install directory too small.</li>
+<li><a href="https://www.freebsd.org">FreeBSD</a> net install: fine, dull.</li>
+<li><a href="https://www.debian.org">Debian</a> stable: probably fine, don't like Gnome 3.38. Old packages in general.</li>
+<li><a href="https://www.debian.org">Debian</a> testing: fine. With various UIs:
+<ul>
+<li>Gnome 43: don't love.</li>
+<li>Cinammon: ugly version.</li>
+<li>KDE: ugly.</li>
+<li>XFCE: fine, bit dull.</li>
+<li>Mate: dull.</li>
+</ul>
+</li>
+<li><a href="https://mxlinux.org">MX Linux</a>: no, too lite.</li>
+<li><a href="https://manjaro.org">Manjaro</a>: fine.</li>
+<li><a href="https://linuxmint.com">Mint</a>: good so far.</li>
+</ul>
+<p>Addendum (March 2023): Mint was my favorite of the distros tested, by a surprisingly large margin. There is no single reason why - it simply felt like the best combination of reliability, features and polish. I did not stick with it, for Linux rather than Mint reasons - returned to Windows then to Mac. </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Notes on Notes Apps (2023)</title>
+        <author>
+            <name>Peter Cavan</name>
+        </author>
+        <link href="https://cavan.us/notes-on-notes-apps-2023/"/>
+        <id>https://cavan.us/notes-on-notes-apps-2023/</id>
 
-    <h2 id="local-washington-flavor">
-      Local Washington Flavor
-    </h2>
+        <updated>2024-01-22T20:56:02-08:00</updated>
+            <summary>
+                <![CDATA[
+                    <p>The output of my evaluation of notes apps: tested nine options, sticking with OneNote. A few comments in a thread.</p>
 
-  <p>
-    Two beers from Washington’s Whatcom and Skagit counties went home with awards - a gold medal for <a href="https://wanderbrewing.com/">Wander</a>’s <a href="https://www.beeradvocate.com/beer/profile/34416/122493/">Correspondent Foreign Extra Stout</a>, plus a bronze for <a href="http://chuckanutbreweryandkitchen.com/">Chuckanut</a>’s <a href="https://www.beeradvocate.com/beer/profile/18879/258109/">Fest Bier</a> (believe it’s brewed at their Burlington location).
-  </p>
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>The output of my evaluation of notes apps: tested nine options, sticking with OneNote. A few comments in a thread.</p>
 
-    <h2 id="tips-for-your-next-visit">
-      Tips For Your Next Visit
-    </h2>
+<ol>
+<li>Nothing, paid or free, ticked every box I wanted. Could not 'pay my way out' to the ideal option.</li>
+<li>The import/export landscape for notes beyond text (rich text, attachments, etc) seems to have regressed. In ye olden days when <a href="https://evernote.com">Evernote</a> was a dominant player (and, to be fair, made a decent format in ENEX) the pathway was straightforward - get your notes to ENEX (perhaps with a temporary Evernote account), then your new service would likely import it. Various services have scaled back their import options, including Evernote (you can get around with an old .exe).</li>
+<li><a href="https://www.notion.so">Notion</a> was perhaps the hardest to evaluate. It has a good web version, Windows and Mac apps (no Linux), few (relevant) caps on the free accounts, powerful templates, etc. You could run all sorts of businesses largely on Notion. But, it felt too heavy/busy for my needs.</li>
+<li>If you're willing to stick to plain text or Markdown there are all sorts of options, from <a href="https://keep.google.com">Google Keep</a> to <a href="https://obsidian.md">Obsidian</a>/<a href="https://joplinapp.org">Joplin</a>/<a href="https://bear.app">Bear</a>/<a href="https://standardnotes.com">Standard</a>/etc. That didn't fit my needs.</li>
+<li>The final four were OneNote, Evernote, Notion, Apple Notes. Notion addressed above. Apple Notes, being Apple + data, had quirks, such as importing everything with a December 2010 date. Evernote was a strong contender but feels in flux (in process of being acquired). OneNote is currently one of the ugliest options (refresh expected in Q2) and isn't great with export, but ticks the rest of my boxes for $0.</li>
+</ol>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Lying</title>
+        <author>
+            <name>Peter Cavan</name>
+        </author>
+        <link href="https://cavan.us/lying/"/>
+        <id>https://cavan.us/lying/</id>
 
-  <ul>
-    <li>As you can see in the header image of this post, GABF is a packed conventional hall. Thousands of attendees crowd every lane between the beer stalls. Beating the crowds entirely is largely impossible, but if you’d like a slightly quieter experience I recommend aiming for the second half of each session. Unfortunately, you will also experience more drunks, but I only encountered one bad drunk in my six hours.&nbsp;</li><li>Volunteers at each stall are instructed to pour 1oz tasters; in reality they typically pour 1.5-2oz. That may seem like a tiny amount but it is more than enough to get a sense of the beer. In fact, if you are aiming to experience many beers in a single session, I would strongly recommend not finishing a taster unless you’re particularly enjoying it. Save that acreage in your liver for something better.&nbsp;</li><li>If you like to document each beer you could use an app like <a href="https://untappd.com/home">Untappd</a>, but they can be rather slow as you try to jump from beer to beer. I’d recommend either scribbling notes on paper, or using the voice memo function on your phone to record a few thoughts.&nbsp;</li><li>There are eight bathrooms around the convention hall but they will always have queues. If you’re comfortable using a Porta Pottie, there are ~90 available in a loading dock on the Champa St side of the hall - no queue needed.&nbsp;</li><li>Take a reusable bottle to fill with water. You’ll need to hydrate but GABF only provides 5oz disposable cups with their water coolers. Queuing for a few minutes to get 5oz of water isn’t good enough.&nbsp;</li><li>There are photo booths dotted around the arena but don’t rely on them for top quality pictures. They featured the selfie camera of four year old Microsoft tablets, which are substantially worse than a selfie from almost any cellphone these days. Example below.</li>
-  </ul>
+        <updated>2024-01-22T19:42:07-08:00</updated>
+            <summary>
+                <![CDATA[
+                    <p>With the renewed focus on such mistruths, it seems worthwhile to categorize the primary forms seen over the past few months in American discourse.</p>
 
-    <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://cavan.us/media/posts/5/GABFheadshot.jpg" sizes="(max-width: 48em) 100vw, 768px" srcset="https://cavan.us/media/posts/5/responsive/GABFheadshot-xs.jpg 300w ,https://cavan.us/media/posts/5/responsive/GABFheadshot-sm.jpg 480w ,https://cavan.us/media/posts/5/responsive/GABFheadshot-md.jpg 768w"  height="857" width="1194" alt="" />
-      
-    </figure>
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>With the renewed focus on such mistruths, it seems worthwhile to categorize the primary forms seen over the past few months in American discourse.</p>
+
+<p><br>Take, for example, the recent case of the inauguration attendees. How many turned up (explanation of debate)<br><br>I’d categorize the justifications to Sean Spicer &amp; Donald Trump’s comments into three buckets:<br><br>1. “Lying is bad, but they didn’t lie.”<br><br>There are already a substantial number of 9/11-Truther-style “there were actually over a million people at Trump’s inauguration but the MSM is lying to us!” theories. I won’t further elucidate how they might be mistaken.<br><br>2. “Lying is bad, but a lying Trump is better than a crooked Hillary.”<br><br>This realpolitik notion understands that Spicer &amp; Trump told bald-faced lies in recent days, and accepts that lying is a bad thing, but rationalizes their flaws as acceptable when compared to a greater evil (in their mind, Democrats in power).<br><br>3. “Trump lied, and that’s a good thing.”<br><br>This position is the hardest to parse, but a longer version is ‘we’ve had generations of scheming, elitist politicians who hate Real America . Donald might lie, but that just shows that he’s a real person who’ll always do what’s right for Real Americans.”<br><br>(why does this matter? they’ll lie about other things, and their supporters won’t care.)</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Seattle Fairmont &#x27;suite&#x27;</title>
+        <author>
+            <name>Peter Cavan</name>
+        </author>
+        <link href="https://cavan.us/seattle-fairmont-suite/"/>
+        <id>https://cavan.us/seattle-fairmont-suite/</id>
+
+        <updated>2024-01-22T20:49:14-08:00</updated>
+            <summary>
+                <![CDATA[
+                    <p>Took my wife to the <a href="https://www.fairmont.com/seattle/">Seattle Fairmont</a> to celebrate our anniversary. We upgraded to the "Suite Seattle Staycation" package, described as:</p>
+
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Took my wife to the <a href="https://www.fairmont.com/seattle/">Seattle Fairmont</a> to celebrate our anniversary. We upgraded to the "Suite Seattle Staycation" package, described as:</p>
+
+<blockquote>
+<p>A Suite Seattle Staycation: Enjoy an upgrade to a suite, guaranteed early check-in of 12PM and a late check-out of 4PM, complimentary self parking for one (1) vehicle and a $50 off massage and/or $50 off any facial during your stay at Penelope &amp; The Beauty Bar (reservations required) as compared to the fully flexible rate.</p>
+</blockquote>
+<p>We did not take advantage of the beauty bar discounts - they were silly expensive ($400-1300). It's a five star hotel, the spa is expensive, fair enough. </p>
+<p>We were less impressed that we were suite-less. Our "<em>Suite Seattle Staycation</em>", to "<em>enjoy an upgrade to a suite</em>", got us into what seemed their smallest and most basic room. On mentioning this to the front desk - "<em>oh, yeah, that's not guaranteed. If we don't have a suite you don't get one</em>." Do you then get a refund for the upgrade? Ha, not a chance. </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Brewery History</title>
+        <author>
+            <name>Peter Cavan</name>
+        </author>
+        <link href="https://cavan.us/brewery-history/"/>
+        <id>https://cavan.us/brewery-history/</id>
+
+        <updated>2024-01-22T19:43:05-08:00</updated>
+            <summary>
+                <![CDATA[
+                    <p>In the mid 19th century if you were drinking, you were drinking local: from one of thousands of breweries. That number shrank fairly consistently (with a brief sojourn to "zero" during Prohibition), to a nadir of 89 breweries in 1979.</p>
+
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>In the mid 19th century if you were drinking, you were drinking local: from one of thousands of breweries. That number shrank fairly consistently (with a brief sojourn to "zero" during Prohibition), to a nadir of 89 breweries in 1979.</p>
+
+<p><br><br>It has risen since with two particular growth spurts: 500 to 1,500 in the mid-90s, and 2,000 to 8,000 in the 2010s. In 2020 number of breweries still grew but production volume fell - hard to say how the 2020s will pan out.</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Potato Burrito</title>
+        <author>
+            <name>Peter Cavan</name>
+        </author>
+        <link href="https://cavan.us/potato-burrito/"/>
+        <id>https://cavan.us/potato-burrito/</id>
+            <category term="recipe"/>
+
+        <updated>2024-01-20T13:51:23-08:00</updated>
+            <summary>
+                <![CDATA[
+                    Beans Pinto beans, soaked overnight with salt, then the water drained (gets rid of some of the oligosaccharides that can cause flatulence), then boiled with&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p><a href="https://www.reddit.com/r/Cooking/comments/2opd41/carnitas/cmpj4lv/">Beans</a> </p>
+<blockquote>
+<p>Pinto beans, soaked overnight with salt, then the water drained (gets rid of some of the oligosaccharides that can cause flatulence), then boiled with sliced onions, garlic and bay leaves. Then halfway mashed, so they still have a lot of texture, and seasoned with ancho chile powder, finely ground espresso beans, soy sauce, cider vinegar, salt. The beans actually aren't heavily seasoned; just a small amount of these flavors are added.</p>
+</blockquote>
+<p><a href="https://www.reddit.com/r/Cooking/comments/2opd41/carnitas/cmpj4lv/">Rice</a></p>
+<blockquote>
+<p>The rice is deep fried (I know, we're sensing a trend here). First a soup is prepared with water, vegetable soup base, sliced onions, sliced green peppers, garlic, ancho chile powder, oregano, basil, tomato sauce, cilantro. It should taste just like soup. By volume, about twice as much as the rice. Bring the soup to a boil and let it simmer while the rice fries. To deep fry the rice, it goes in a wire mesh strainer and is lowered into the deep fryer. You keep stirring the rice until it becomes tan colored and acquires a nutty aroma. Then it needs to drain completely for about 5 minutes, then it's very carefully introduced to the soup. After the boiling dies down, it's capped and simmered until done, then fluffed.</p>
+</blockquote>
+<p><br><a href="https://www.reddit.com/r/Cooking/comments/2opd41/carnitas/cmqezlo/">Potato Vinegar</a> </p>
+<blockquote>
+<p>Unpeeled Russet potatoes are boiled with salt, garlic and bay, then chilled completely, then diced. They are tossed lightly in this potato vinegar, then deep fried. The acid retards the browning, so they can become very crisp without becoming dark or bitter.<br><br>2/3 cup white vinegar<br>2 tsp salt<br>1 tsp soy sauce<br>1 tsp garlic, crushed<br>1/4 tsp ground cumin<br>1/4 tsp black pepper<br>flour, by eye<br><br>Mix all with a whisk. Whisk in flour until mixture is of a consistency just a little thicker than buttermilk.</p>
+</blockquote>
+<p><a href="https://www.reddit.com/r/Cooking/comments/2opd41/carnitas/cmqezlo/">Potato Burrito Sauce</a> </p>
+<blockquote>
+<p>At Casa this is made with the house red sauce, which is made with chiles de arbol, onions and tomatoes. It's a common taqueria red sauce, but there's really not many common commercial equivalents. This recipe substitutes Tapatio. There are so many flavors here that the difference shouldn't be apparent.<br><br>3/4 cup sour cream<br>1/4 cup mayonnaise<br>1 Tb chile de arbol sauce, e.g. Tapatio<br>1.5 tsp Worcestershire<br>3/4 tsp New Mexico red chile powder, mild<br>3/4 tsp garlic, crushed<br>3/4 tsp yellow prepared mustard<br>1/2 tsp lemon juice<br>1/4 tsp black pepper<br>1/4 tsp ground cumin<br>1/4 tsp sugar<br>1/4 tsp salt<br><br>Whisk all together.</p>
+</blockquote>
             ]]>
         </content>
     </entry>
